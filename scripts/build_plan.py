@@ -140,14 +140,62 @@ def flags_for(d):
     return fl
 
 
+TYPE_LABEL = {
+    "easy": "Easy run", "long": "Long run", "workout": "Workout",
+    "shakeout": "Shakeout", "strength": "Recovery / strength", "rest": "Rest",
+    "race": "RACE",
+}
+
+
+def zone_for(kind, title):
+    t = title.lower()
+    if kind == "rest":
+        return ""
+    if kind == "shakeout":
+        return "Zone 1 · very easy, just flush the legs"
+    if kind == "long":
+        return "Zone 2 · steady, short sentences only"
+    if kind == "race":
+        return "Zone 3 · lock into goal effort, don't chase early splits"
+    if kind == "workout":
+        if "marathon pace" in t or "@ mp" in t or " mp" in t:
+            return "Zone 3 · controlled, 6/10 effort"
+        if any(k in t for k in ("800", "1000", "1200", "interval", "x 400", "vo2")):
+            return "Zone 4–5 · hard, 8–9/10"
+        if "tempo" in t or "threshold" in t:
+            return "Zone 4 · comfortably hard, 7/10"
+        if "strides" in t or "hill" in t or "fartlek" in t:
+            return "Zone 2 base + short Zone 4 bursts"
+        return "Zone 3–4"
+    return "Zone 2 · conversational, nose-breathing"
+
+
+def fuel_for(kind, miles):
+    if kind == "race":
+        return ("Race fuel: 200–300 cal + 16 oz fluid pre. On course take 30–60 g carb/hr "
+                "(gel every 30–35 min) + sip at every station. Miami is humid — add electrolytes.")
+    if kind == "long" and miles >= 10:
+        return ("Practice race nutrition: carb-load the night before, eat 1–2 hr pre, then "
+                f"30–45 g carb/hr from mile 4 ({int(miles // 4)}–{int(miles // 3)} gels total) "
+                "+ 4–6 oz fluid every 20 min. Nothing you haven't tried before.")
+    if kind == "workout" and miles >= 7:
+        return "Top off with ~30 g carb 15 min before; one gel mid-session if it runs long."
+    if kind in ("easy", "shakeout", "strength", "rest"):
+        return ""
+    return "Hydrate well; a small carb snack beforehand is enough."
+
+
 def session(d, kind, title, miles, pace, purpose):
     return {
         "date": d.isoformat(),
         "dow": d.strftime("%a"),
         "kind": kind,
+        "type_label": TYPE_LABEL.get(kind, kind.title()),
         "title": title,
         "miles": round(miles, 1),
         "pace": pace,
+        "zone": zone_for(kind, title),
+        "fuel": fuel_for(kind, miles),
         "purpose": purpose,
         "flags": flags_for(d),
         "classes": CLASSES.get(d.weekday(), []) if d <= CLASS_LAST_DAY else [],
@@ -181,13 +229,13 @@ def build_week(w):
     wname, _, wpurpose = WORKOUTS[w]
     long_flag = LONG_NOTE.get(w)
 
-    # Monday - recovery + strength (rest on down/taper weeks)
+    # Monday - recovery jog (rest on down/taper weeks); lifting is layered on below
     if w in (9, 12, 15, 18, 19, 20, 21):
-        sessions.append(session(days[0], "strength", "Rest or 20 min shakeout + strength", 0,
+        sessions.append(session(days[0], "strength", "Rest or 20 min shakeout", 0,
                                  "-", "Down week - prioritise recovery"))
     else:
-        sessions.append(session(days[0], "easy", "Recovery jog + strength", max(mon_mi, 3),
-                                 PACES["recovery"], "Easy shakeout, then lift"))
+        sessions.append(session(days[0], "easy", "Recovery jog", max(mon_mi, 3),
+                                 PACES["recovery"], "Easy shakeout to open the legs up"))
 
     # Tuesday - easy + strides
     sessions.append(session(days[1], "easy", "Easy + 4-6 x 100 m strides", max(tue_mi, 3),
@@ -255,7 +303,46 @@ def build_week(w):
             sessions.append(session(sun, "long", title, longmi, PACES["long"],
                                     "The most important run of the week"))
 
+    add_lifting(sessions, w, longmi, gameday)
     return week_obj(w, mon, ph, total, longmi, sessions)
+
+
+# Dan's lifting split, mapped onto the week. Mon=0 ... Sun=6.
+LIFTING = {
+    0: "Legs",
+    1: "Push",
+    2: "Pull",
+    4: "Chest & Back",
+    5: "Shoulders & Arms",
+}
+
+
+def add_lifting(sessions, w, longmi, gameday):
+    """Layer the lifting schedule onto each day's session as a `lift` field.
+
+    Marathon-aware: goes light when the run that day (or the day before) is demanding,
+    and during the Peak block; on gameday Saturdays and abroad it flexes or drops."""
+    prev_long = LONGRUN[w - 2] if w >= 2 else 0
+    for s in sessions:
+        d = date.fromisoformat(s["date"])
+        lift = LIFTING.get(d.weekday())
+        if not lift:
+            continue
+        if gameday and d.weekday() == 5:
+            continue  # Sat = dawn long run + tailgate, no lift
+        trip = trip_for(d)
+        note = ""
+        if trip:
+            note = "hotel gym or bands - or just skip it, you're on a trip"
+        elif s["kind"] in ("long", "workout"):
+            note = "AFTER the run, and go light - the run is the point today"
+        elif d.weekday() == 0 and (phase(w) == "Peak" or prev_long >= 16):
+            note = "legs are cooked from yesterday's long run - light, high-rep, or mobility only"
+        elif phase(w) == "Peak":
+            note = "drop a set or two per exercise - recovery is the priority now"
+        elif phase(w) == "Taper":
+            note = "light maintenance only - no soreness allowed"
+        s["lift"] = {"name": lift, "note": note}
 
 
 def week_obj(w, mon, ph, total, longmi, sessions):
@@ -273,6 +360,14 @@ def week_obj(w, mon, ph, total, longmi, sessions):
     if w == 22:
         notes.append("RACE WEEK. Sleep is the training now. Lay out kit Sat night. "
                      "Miami is warm - dress like it's 15 degrees warmer than the thermometer.")
+    if ph == "Peak":
+        notes.append("Lifting: this is where running and lifting compete. Keep all 5 days if you "
+                     "want, but cut ~30% of the volume and keep leg day light - never let the "
+                     "gym leave you unable to hit Thursday's workout or Sunday's long run.")
+    if ph == "Taper":
+        notes.append("Lifting: maintenance only - light weight, low volume, zero soreness. "
+                     "Nothing new in the 10 days before the race.")
+    lift_days = sum(1 for s in sessions if s.get("lift"))
     return {
         "week": w,
         "phase": ph,
@@ -280,6 +375,7 @@ def week_obj(w, mon, ph, total, longmi, sessions):
         "target_mileage": total,
         "long_run_mi": longmi,
         "planned_mileage": planned,
+        "planned_lifts": lift_days,
         "notes": notes,
         "sessions": sessions,
     }
@@ -297,6 +393,12 @@ def main():
         "paces": PACES,
         "week1_monday": WEEK1_MONDAY.isoformat(),
         "n_weeks": N_WEEKS,
+        "lifting": {
+            "split": {"Mon": "Legs", "Tue": "Push", "Wed": "Pull",
+                      "Fri": "Chest & Back", "Sat": "Shoulders & Arms"},
+            "rule": "Lift after the run, not before. Legs stay light Mon (post-long-run) and "
+                    "through the Peak block. Fri/Sat: lift before you drink.",
+        },
         "constraints": {
             "drinking_days": ["Wed", "Fri", "Sat"],
             "classes": {str(k): v for k, v in CLASSES.items()},

@@ -3,50 +3,38 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Miami Marathon Dashboard</title>
+  <title>Miami '27 — Marathon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/dashboard.css" />
   <link rel="manifest" href="manifest.webmanifest" />
-  <meta name="theme-color" content="#0d1117" />
+  <meta name="theme-color" content="#080B16" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="Miami 26.2" />
+  <meta name="apple-mobile-web-app-title" content="Miami '27" />
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
   <link rel="icon" href="assets/icons/icon-192.png" />
 </head>
 <body>
-  <div id="hero" class="hero"></div>
-
-  <div id="tiles" class="tiles" style="margin-bottom:16px"></div>
-
-  <div id="weeks" class="grid" style="margin-bottom:16px"></div>
-
-  <div class="panel" style="margin-bottom:16px">
-    <h2>Weekly mileage &mdash; plan vs actual</h2>
-    <div id="chart-mileage"></div>
-    <div class="legend">
-      <span><i style="background:#30363d"></i>planned</span>
-      <span><i style="background:var(--accent)"></i>actual (from Strava)</span>
+  <header class="topbar">
+    <div class="wrap">
+      <div class="brand"><span class="dot">&#128010;</span> MIAMI <span class="yr">&rsquo;27</span></div>
+      <nav class="tabs" id="tabs">
+        <button data-tab="race" class="active">Race</button>
+        <button data-tab="week">This Week</button>
+        <button data-tab="progress">Progression</button>
+      </nav>
+      <div class="sync" id="sync"></div>
     </div>
-  </div>
+  </header>
 
-  <div class="grid cols-2" style="margin-bottom:16px">
-    <div class="panel">
-      <h2>Long run progression</h2>
-      <div id="chart-long"></div>
-      <div class="legend"><span><i style="background:#4d5560"></i>planned</span><span><i style="background:var(--accent)"></i>longest actual that week</span></div>
-    </div>
-    <div class="panel">
-      <h2>Easy-pace trend (weekly avg)</h2>
-      <div id="chart-pace"></div>
-      <div class="legend"><span>Lower = faster. Watch that easy days stay genuinely easy (9:45+).</span></div>
-    </div>
-  </div>
-
-  <div id="adherence" class="panel" style="margin-bottom:16px"></div>
-
-  <div id="recent" class="panel"></div>
-
-  <p id="foot" class="foot"></p>
+  <main class="wrap">
+    <section class="tab active" id="tab-race"></section>
+    <section class="tab" id="tab-week"></section>
+    <section class="tab" id="tab-progress"></section>
+    <p class="foot" id="foot"></p>
+  </main>
 
   <script src="data/data.js"></script>
   <script src="assets/dashboard.js"></script>
