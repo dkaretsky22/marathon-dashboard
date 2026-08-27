@@ -1,0 +1,13 @@
+{
+  "name": "Dan",
+  "device": "Garmin vivoactive 6",
+  "as_of": "2026-06-22",
+  "vo2max": 55,
+  "race_predictions": {
+    "5K": "20:50",
+    "10K": "45:02",
+    "half": "1:41:39",
+    "marathon": "3:47:09"
+  },
+  "notes": "Garmin race predictor as of late June 2026. Goal (3:45) is ~2 min faster than the current marathon prediction - achievable with the long-run volume this plan adds."
+}

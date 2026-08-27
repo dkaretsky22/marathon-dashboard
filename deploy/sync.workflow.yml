@@ -1,0 +1,50 @@
+# === GitHub Actions workflow ===
+# This file must live at:  .github/workflows/sync.yml  in your GitHub repo.
+# Easiest way to add it: on github.com, open your repo -> "Add file" -> "Create new file"
+# -> name it  .github/workflows/sync.yml  -> paste everything BELOW the divider line.
+# ------------------------------------------------------------------------------------
+
+name: Strava sync
+
+on:
+  schedule:
+    - cron: "17 * * * *"        # every hour at :17 past
+  workflow_dispatch:              # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: strava-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Pull latest activities from Strava
+        env:
+          STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
+          STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
+          STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
+        run: python scripts/strava_sync.py
+
+      - name: Commit refreshed dashboard data
+        run: |
+          git config user.name "strava-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/data.js data/activities.json data/strava_state.json 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "sync $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi

@@ -1,0 +1,6 @@
+{
+  "client_id": "PASTE_YOUR_STRAVA_CLIENT_ID",
+  "client_secret": "PASTE_YOUR_STRAVA_CLIENT_SECRET",
+  "refresh_token": "",
+  "athlete_id": null
+}

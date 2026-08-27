@@ -1,0 +1,9 @@
+config.json
+data/_seed/
+sync.log
+__pycache__/
+*.pyc
+.DS_Store
+
+# data/data.js, data/activities.json and data/strava_state.json are committed on purpose:
+# the GitHub Actions cloud sync updates them and Netlify serves them.

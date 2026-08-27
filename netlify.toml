@@ -1,0 +1,15 @@
+# Netlify serves this repo as a plain static site - no build step.
+[build]
+  publish = "."
+  command = ""
+
+# open the dashboard at the site root
+[[redirects]]
+  from = "/"
+  to = "/dashboard.html"
+  status = 200
+
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "no-cache"

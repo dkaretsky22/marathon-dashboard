@@ -1,0 +1,2463 @@
+{
+  "race": "Life Time Miami Marathon",
+  "race_date": "2027-01-31",
+  "race_start_time": "06:00",
+  "goal_time": "3:45:00",
+  "goal_pace": "8:34 /mi",
+  "generated_at": "2026-08-27T13:49:39",
+  "paces": {
+    "easy": "9:45-10:45 /mi",
+    "long": "9:30-10:30 /mi",
+    "marathon": "8:35 /mi",
+    "tempo": "7:50-8:05 /mi",
+    "interval": "7:15-7:30 /mi",
+    "recovery": "10:30-11:15 /mi"
+  },
+  "week1_monday": "2026-08-31",
+  "n_weeks": 22,
+  "constraints": {
+    "drinking_days": [
+      "Wed",
+      "Fri",
+      "Sat"
+    ],
+    "classes": {
+      "0": [
+        "13:55-15:40 Real Estate Analysis + Lecture 2"
+      ],
+      "1": [
+        "09:35-11:30 Operations Management",
+        "13:55-14:45 Professional Writing"
+      ],
+      "2": [
+        "13:55-15:40 Real Estate Analysis"
+      ],
+      "3": [
+        "09:35-11:30 Operations Management",
+        "13:55-14:45 Professional Writing"
+      ]
+    },
+    "class_last_day": "2026-12-11",
+    "trips": [
+      {
+        "name": "Barcelona",
+        "start": "2026-09-23",
+        "end": "2026-09-27"
+      },
+      {
+        "name": "Las Vegas",
+        "start": "2026-10-01",
+        "end": "2026-10-04"
+      },
+      {
+        "name": "New York (cold)",
+        "start": "2026-12-12",
+        "end": "2027-01-06"
+      }
+    ],
+    "home_games": {
+      "2026-09-26": "Florida vs Ole Miss (you're in Barcelona - skip)",
+      "2026-10-10": "Florida vs South Carolina - The Swamp",
+      "2026-11-07": "Florida vs Oklahoma - The Swamp",
+      "2026-11-21": "Florida vs Vanderbilt - The Swamp"
+    }
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "phase": "Base",
+      "start": "2026-08-31",
+      "target_mileage": 22,
+      "long_run_mi": 8,
+      "planned_mileage": 19,
+      "notes": [],
+      "sessions": [
+        {
+          "date": "2026-08-31",
+          "dow": "Mon",
+          "kind": "easy",
+          "title": "Recovery jog + strength",
+          "miles": 3,
+          "pace": "10:30-11:15 /mi",
+          "purpose": "Easy shakeout, then lift",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis + Lecture 2"
+          ]
+        },
+        {
+          "date": "2026-09-01",
+          "dow": "Tue",
+          "kind": "easy",
+          "title": "Easy + 4-6 x 100 m strides",
+          "miles": 3,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Aerobic volume, quick feet at the end",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-09-02",
+          "dow": "Wed",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - no run",
+          "flags": [
+            "drinking-day",
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis"
+          ]
+        },
+        {
+          "date": "2026-09-03",
+          "dow": "Thu",
+          "kind": "workout",
+          "title": "6x20s hill strides in a 5 mi easy run",
+          "miles": 5,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Wake the legs up - no hard breathing",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-09-04",
+          "dow": "Fri",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - full rest",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-09-05",
+          "dow": "Sat",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Optional full rest",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-09-06",
+          "dow": "Sun",
+          "kind": "long",
+          "title": "Long run 8 mi",
+          "miles": 8,
+          "pace": "9:30-10:30 /mi",
+          "purpose": "The most important run of the week",
+          "flags": [],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "phase": "Base",
+      "start": "2026-09-07",
+      "target_mileage": 25,
+      "long_run_mi": 10,
+      "planned_mileage": 22,
+      "notes": [],
+      "sessions": [
+        {
+          "date": "2026-09-07",
+          "dow": "Mon",
+          "kind": "easy",
+          "title": "Recovery jog + strength",
+          "miles": 3,
+          "pace": "10:30-11:15 /mi",
+          "purpose": "Easy shakeout, then lift",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis + Lecture 2"
+          ]
+        },
+        {
+          "date": "2026-09-08",
+          "dow": "Tue",
+          "kind": "easy",
+          "title": "Easy + 4-6 x 100 m strides",
+          "miles": 3,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Aerobic volume, quick feet at the end",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-09-09",
+          "dow": "Wed",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - no run",
+          "flags": [
+            "drinking-day",
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis"
+          ]
+        },
+        {
+          "date": "2026-09-10",
+          "dow": "Thu",
+          "kind": "workout",
+          "title": "4 x 0.5 mi @ tempo (90s float) in 6 mi",
+          "miles": 6,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Rhythm work, controlled",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-09-11",
+          "dow": "Fri",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - full rest",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-09-12",
+          "dow": "Sat",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Optional full rest",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-09-13",
+          "dow": "Sun",
+          "kind": "long",
+          "title": "Long run 10 mi",
+          "miles": 10,
+          "pace": "9:30-10:30 /mi",
+          "purpose": "The most important run of the week",
+          "flags": [],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "phase": "Base",
+      "start": "2026-09-14",
+      "target_mileage": 28,
+      "long_run_mi": 12,
+      "planned_mileage": 25,
+      "notes": [],
+      "sessions": [
+        {
+          "date": "2026-09-14",
+          "dow": "Mon",
+          "kind": "easy",
+          "title": "Recovery jog + strength",
+          "miles": 3,
+          "pace": "10:30-11:15 /mi",
+          "purpose": "Easy shakeout, then lift",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis + Lecture 2"
+          ]
+        },
+        {
+          "date": "2026-09-15",
+          "dow": "Tue",
+          "kind": "easy",
+          "title": "Easy + 4-6 x 100 m strides",
+          "miles": 3,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Aerobic volume, quick feet at the end",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-09-16",
+          "dow": "Wed",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - no run",
+          "flags": [
+            "drinking-day",
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis"
+          ]
+        },
+        {
+          "date": "2026-09-17",
+          "dow": "Thu",
+          "kind": "workout",
+          "title": "2 mi tempo @ 7:55 inside 7 mi",
+          "miles": 7,
+          "pace": "7:50-8:05 /mi",
+          "purpose": "First real threshold touch",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-09-18",
+          "dow": "Fri",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - full rest",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-09-19",
+          "dow": "Sat",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Optional full rest",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-09-20",
+          "dow": "Sun",
+          "kind": "long",
+          "title": "Long run 12 mi",
+          "miles": 12,
+          "pace": "9:30-10:30 /mi",
+          "purpose": "The most important run of the week",
+          "flags": [],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "phase": "Base",
+      "start": "2026-09-21",
+      "target_mileage": 20,
+      "long_run_mi": 7,
+      "planned_mileage": 17,
+      "notes": [
+        "Cut-back / travel week - fitness is banked, don't chase mileage abroad."
+      ],
+      "sessions": [
+        {
+          "date": "2026-09-21",
+          "dow": "Mon",
+          "kind": "easy",
+          "title": "Recovery jog + strength",
+          "miles": 3,
+          "pace": "10:30-11:15 /mi",
+          "purpose": "Easy shakeout, then lift",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis + Lecture 2"
+          ]
+        },
+        {
+          "date": "2026-09-22",
+          "dow": "Tue",
+          "kind": "easy",
+          "title": "Easy + 4-6 x 100 m strides",
+          "miles": 3,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Aerobic volume, quick feet at the end",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "dow": "Wed",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - no run",
+          "flags": [
+            "travel:Barcelona",
+            "drinking-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "dow": "Thu",
+          "kind": "easy",
+          "title": "Easy 4 mi, explore Barcelona",
+          "miles": 4,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Travel week - keep it loose",
+          "flags": [
+            "travel:Barcelona"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-09-25",
+          "dow": "Fri",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - full rest",
+          "flags": [
+            "travel:Barcelona",
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-09-26",
+          "dow": "Sat",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Rest day",
+          "flags": [
+            "travel:Barcelona",
+            "home-game",
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-09-27",
+          "dow": "Sun",
+          "kind": "long",
+          "title": "Easy 7 (travel day - do it if you can)",
+          "miles": 7,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Time on feet, no pace pressure",
+          "flags": [
+            "travel:Barcelona"
+          ],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "phase": "Base",
+      "start": "2026-09-28",
+      "target_mileage": 18,
+      "long_run_mi": 8,
+      "planned_mileage": 18,
+      "notes": [
+        "Cut-back / travel week - fitness is banked, don't chase mileage abroad."
+      ],
+      "sessions": [
+        {
+          "date": "2026-09-28",
+          "dow": "Mon",
+          "kind": "easy",
+          "title": "Recovery jog + strength",
+          "miles": 3,
+          "pace": "10:30-11:15 /mi",
+          "purpose": "Easy shakeout, then lift",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis + Lecture 2"
+          ]
+        },
+        {
+          "date": "2026-09-29",
+          "dow": "Tue",
+          "kind": "easy",
+          "title": "Easy + 4-6 x 100 m strides",
+          "miles": 3,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Aerobic volume, quick feet at the end",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-09-30",
+          "dow": "Wed",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - no run",
+          "flags": [
+            "drinking-day",
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis"
+          ]
+        },
+        {
+          "date": "2026-10-01",
+          "dow": "Thu",
+          "kind": "easy",
+          "title": "Easy 4 mi (Vegas - hydrate, no ego)",
+          "miles": 4,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Travel week - just turn the legs over",
+          "flags": [
+            "travel:Las Vegas"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-10-02",
+          "dow": "Fri",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - full rest",
+          "flags": [
+            "travel:Las Vegas",
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-10-03",
+          "dow": "Sat",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Rest day",
+          "flags": [
+            "travel:Las Vegas",
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-10-04",
+          "dow": "Sun",
+          "kind": "long",
+          "title": "Easy 8 (travel day - do it if you can)",
+          "miles": 8,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Time on feet, no pace pressure",
+          "flags": [
+            "travel:Las Vegas"
+          ],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "phase": "Base",
+      "start": "2026-10-05",
+      "target_mileage": 30,
+      "long_run_mi": 13,
+      "planned_mileage": 29,
+      "notes": [],
+      "sessions": [
+        {
+          "date": "2026-10-05",
+          "dow": "Mon",
+          "kind": "easy",
+          "title": "Recovery jog + strength",
+          "miles": 3,
+          "pace": "10:30-11:15 /mi",
+          "purpose": "Easy shakeout, then lift",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis + Lecture 2"
+          ]
+        },
+        {
+          "date": "2026-10-06",
+          "dow": "Tue",
+          "kind": "easy",
+          "title": "Easy + 4-6 x 100 m strides",
+          "miles": 4,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Aerobic volume, quick feet at the end",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-10-07",
+          "dow": "Wed",
+          "kind": "easy",
+          "title": "Short easy - run it in the MORNING",
+          "miles": 3,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Get it done before the day gets away from you",
+          "flags": [
+            "drinking-day",
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis"
+          ]
+        },
+        {
+          "date": "2026-10-08",
+          "dow": "Thu",
+          "kind": "workout",
+          "title": "3 mi tempo @ 7:55 inside 6 mi",
+          "miles": 6,
+          "pace": "7:50-8:05 /mi",
+          "purpose": "Back to work after the trips",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "dow": "Fri",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - full rest",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-10-10",
+          "dow": "Sat",
+          "kind": "long",
+          "title": "Long run 13 mi - BEFORE the game",
+          "miles": 13,
+          "pace": "9:30-10:30 /mi",
+          "purpose": "Out the door by 6:30 AM. Florida vs South Carolina - The Swamp. Bank it before kickoff, then you've earned the day.",
+          "flags": [
+            "home-game",
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-10-11",
+          "dow": "Sun",
+          "kind": "rest",
+          "title": "Recovery - full rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Long run + gameday were yesterday. Hydrate, eat, sleep.",
+          "flags": [],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "phase": "Build",
+      "start": "2026-10-12",
+      "target_mileage": 33,
+      "long_run_mi": 14,
+      "planned_mileage": 33,
+      "notes": [],
+      "sessions": [
+        {
+          "date": "2026-10-12",
+          "dow": "Mon",
+          "kind": "easy",
+          "title": "Recovery jog + strength",
+          "miles": 3,
+          "pace": "10:30-11:15 /mi",
+          "purpose": "Easy shakeout, then lift",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis + Lecture 2"
+          ]
+        },
+        {
+          "date": "2026-10-13",
+          "dow": "Tue",
+          "kind": "easy",
+          "title": "Easy + 4-6 x 100 m strides",
+          "miles": 4,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Aerobic volume, quick feet at the end",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "dow": "Wed",
+          "kind": "easy",
+          "title": "Short easy - run it in the MORNING",
+          "miles": 3,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Get it done before the day gets away from you",
+          "flags": [
+            "drinking-day",
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "dow": "Thu",
+          "kind": "workout",
+          "title": "4 mi @ 8:00 tempo inside 7 mi",
+          "miles": 7,
+          "pace": "7:50-8:05 /mi",
+          "purpose": "Extend threshold volume",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "dow": "Fri",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - full rest",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-10-17",
+          "dow": "Sat",
+          "kind": "shakeout",
+          "title": "Easy shakeout - MORNING",
+          "miles": 2,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Short and early, before the day starts",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-10-18",
+          "dow": "Sun",
+          "kind": "long",
+          "title": "Long run 14 mi",
+          "miles": 14,
+          "pace": "9:30-10:30 /mi",
+          "purpose": "The most important run of the week",
+          "flags": [],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "phase": "Build",
+      "start": "2026-10-19",
+      "target_mileage": 36,
+      "long_run_mi": 16,
+      "planned_mileage": 36,
+      "notes": [],
+      "sessions": [
+        {
+          "date": "2026-10-19",
+          "dow": "Mon",
+          "kind": "easy",
+          "title": "Recovery jog + strength",
+          "miles": 3,
+          "pace": "10:30-11:15 /mi",
+          "purpose": "Easy shakeout, then lift",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis + Lecture 2"
+          ]
+        },
+        {
+          "date": "2026-10-20",
+          "dow": "Tue",
+          "kind": "easy",
+          "title": "Easy + 4-6 x 100 m strides",
+          "miles": 4,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Aerobic volume, quick feet at the end",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "dow": "Wed",
+          "kind": "easy",
+          "title": "Short easy - run it in the MORNING",
+          "miles": 3,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Get it done before the day gets away from you",
+          "flags": [
+            "drinking-day",
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis"
+          ]
+        },
+        {
+          "date": "2026-10-22",
+          "dow": "Thu",
+          "kind": "workout",
+          "title": "2 x 2 mi @ 7:55 (2 min jog) inside 8 mi",
+          "miles": 8,
+          "pace": "7:50-8:05 /mi",
+          "purpose": "Threshold intervals",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-10-23",
+          "dow": "Fri",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - full rest",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-10-24",
+          "dow": "Sat",
+          "kind": "shakeout",
+          "title": "Easy shakeout - MORNING",
+          "miles": 2,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Short and early, before the day starts",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-10-25",
+          "dow": "Sun",
+          "kind": "long",
+          "title": "Long run 16 mi - last 3 mi @ marathon pace",
+          "miles": 16,
+          "pace": "9:30-10:30 /mi",
+          "purpose": "The most important run of the week",
+          "flags": [],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "phase": "Build",
+      "start": "2026-10-26",
+      "target_mileage": 32,
+      "long_run_mi": 12,
+      "planned_mileage": 28,
+      "notes": [],
+      "sessions": [
+        {
+          "date": "2026-10-26",
+          "dow": "Mon",
+          "kind": "strength",
+          "title": "Rest or 20 min shakeout + strength",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Down week - prioritise recovery",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis + Lecture 2"
+          ]
+        },
+        {
+          "date": "2026-10-27",
+          "dow": "Tue",
+          "kind": "easy",
+          "title": "Easy + 4-6 x 100 m strides",
+          "miles": 5,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Aerobic volume, quick feet at the end",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-10-28",
+          "dow": "Wed",
+          "kind": "easy",
+          "title": "Short easy - run it in the MORNING",
+          "miles": 3,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Get it done before the day gets away from you",
+          "flags": [
+            "drinking-day",
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis"
+          ]
+        },
+        {
+          "date": "2026-10-29",
+          "dow": "Thu",
+          "kind": "workout",
+          "title": "5 x 800 m @ 7:20 (400 jog) inside 6 mi",
+          "miles": 6,
+          "pace": "7:50-8:05 /mi",
+          "purpose": "Sharpen - down week, stay smooth",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "dow": "Fri",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - full rest",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-10-31",
+          "dow": "Sat",
+          "kind": "shakeout",
+          "title": "Easy shakeout - MORNING",
+          "miles": 2,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Short and early, before the day starts",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-11-01",
+          "dow": "Sun",
+          "kind": "long",
+          "title": "Long run 12 mi",
+          "miles": 12,
+          "pace": "9:30-10:30 /mi",
+          "purpose": "The most important run of the week",
+          "flags": [],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "phase": "Build",
+      "start": "2026-11-02",
+      "target_mileage": 38,
+      "long_run_mi": 16,
+      "planned_mileage": 36,
+      "notes": [],
+      "sessions": [
+        {
+          "date": "2026-11-02",
+          "dow": "Mon",
+          "kind": "easy",
+          "title": "Recovery jog + strength",
+          "miles": 4,
+          "pace": "10:30-11:15 /mi",
+          "purpose": "Easy shakeout, then lift",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis + Lecture 2"
+          ]
+        },
+        {
+          "date": "2026-11-03",
+          "dow": "Tue",
+          "kind": "easy",
+          "title": "Easy + 4-6 x 100 m strides",
+          "miles": 5,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Aerobic volume, quick feet at the end",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "dow": "Wed",
+          "kind": "easy",
+          "title": "Short easy - run it in the MORNING",
+          "miles": 3,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Get it done before the day gets away from you",
+          "flags": [
+            "drinking-day",
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "dow": "Thu",
+          "kind": "workout",
+          "title": "5 mi @ marathon pace (8:35) inside 8 mi",
+          "miles": 8,
+          "pace": "7:50-8:05 /mi",
+          "purpose": "First MP block",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "dow": "Fri",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - full rest",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-11-07",
+          "dow": "Sat",
+          "kind": "long",
+          "title": "Long run 16 mi - BEFORE the game (last 4 mi @ marathon pace)",
+          "miles": 16,
+          "pace": "9:30-10:30 /mi",
+          "purpose": "Out the door by 6:30 AM. Florida vs Oklahoma - The Swamp. Bank it before kickoff, then you've earned the day.",
+          "flags": [
+            "home-game",
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-11-08",
+          "dow": "Sun",
+          "kind": "rest",
+          "title": "Recovery - full rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Long run + gameday were yesterday. Hydrate, eat, sleep.",
+          "flags": [],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "phase": "Build",
+      "start": "2026-11-09",
+      "target_mileage": 41,
+      "long_run_mi": 18,
+      "planned_mileage": 41,
+      "notes": [],
+      "sessions": [
+        {
+          "date": "2026-11-09",
+          "dow": "Mon",
+          "kind": "easy",
+          "title": "Recovery jog + strength",
+          "miles": 4,
+          "pace": "10:30-11:15 /mi",
+          "purpose": "Easy shakeout, then lift",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis + Lecture 2"
+          ]
+        },
+        {
+          "date": "2026-11-10",
+          "dow": "Tue",
+          "kind": "easy",
+          "title": "Easy + 4-6 x 100 m strides",
+          "miles": 5,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Aerobic volume, quick feet at the end",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "dow": "Wed",
+          "kind": "easy",
+          "title": "Short easy - run it in the MORNING",
+          "miles": 3,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Get it done before the day gets away from you",
+          "flags": [
+            "drinking-day",
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis"
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "dow": "Thu",
+          "kind": "workout",
+          "title": "4 mi tempo @ 7:50 inside 9 mi",
+          "miles": 9,
+          "pace": "7:50-8:05 /mi",
+          "purpose": "Biggest threshold day",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-11-13",
+          "dow": "Fri",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - full rest",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-11-14",
+          "dow": "Sat",
+          "kind": "shakeout",
+          "title": "Easy shakeout - MORNING",
+          "miles": 2,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Short and early, before the day starts",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-11-15",
+          "dow": "Sun",
+          "kind": "long",
+          "title": "Long run 18 mi - last 5 mi @ marathon pace",
+          "miles": 18,
+          "pace": "9:30-10:30 /mi",
+          "purpose": "The most important run of the week",
+          "flags": [],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "phase": "Build",
+      "start": "2026-11-16",
+      "target_mileage": 36,
+      "long_run_mi": 14,
+      "planned_mileage": 30,
+      "notes": [],
+      "sessions": [
+        {
+          "date": "2026-11-16",
+          "dow": "Mon",
+          "kind": "strength",
+          "title": "Rest or 20 min shakeout + strength",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Down week - prioritise recovery",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis + Lecture 2"
+          ]
+        },
+        {
+          "date": "2026-11-17",
+          "dow": "Tue",
+          "kind": "easy",
+          "title": "Easy + 4-6 x 100 m strides",
+          "miles": 5,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Aerobic volume, quick feet at the end",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-11-18",
+          "dow": "Wed",
+          "kind": "easy",
+          "title": "Short easy - run it in the MORNING",
+          "miles": 4,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Get it done before the day gets away from you",
+          "flags": [
+            "drinking-day",
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis"
+          ]
+        },
+        {
+          "date": "2026-11-19",
+          "dow": "Thu",
+          "kind": "workout",
+          "title": "6 x 800 m @ 7:15 (400 jog) inside 7 mi",
+          "miles": 7,
+          "pace": "7:50-8:05 /mi",
+          "purpose": "VO2 sharpener, down week",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-11-20",
+          "dow": "Fri",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - full rest",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-11-21",
+          "dow": "Sat",
+          "kind": "long",
+          "title": "Long run 14 mi - BEFORE the game",
+          "miles": 14,
+          "pace": "9:30-10:30 /mi",
+          "purpose": "Out the door by 6:30 AM. Florida vs Vanderbilt - The Swamp. Bank it before kickoff, then you've earned the day.",
+          "flags": [
+            "home-game",
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-11-22",
+          "dow": "Sun",
+          "kind": "rest",
+          "title": "Recovery - full rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Long run + gameday were yesterday. Hydrate, eat, sleep.",
+          "flags": [],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "phase": "Peak",
+      "start": "2026-11-23",
+      "target_mileage": 43,
+      "long_run_mi": 18,
+      "planned_mileage": 40,
+      "notes": [],
+      "sessions": [
+        {
+          "date": "2026-11-23",
+          "dow": "Mon",
+          "kind": "easy",
+          "title": "Recovery jog + strength",
+          "miles": 5,
+          "pace": "10:30-11:15 /mi",
+          "purpose": "Easy shakeout, then lift",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis + Lecture 2"
+          ]
+        },
+        {
+          "date": "2026-11-24",
+          "dow": "Tue",
+          "kind": "workout",
+          "title": "MOVED UP: 6 mi @ marathon pace (8:35) inside 8 mi",
+          "miles": 8,
+          "pace": "7:50-8:05 /mi",
+          "purpose": "MP volume - Thanksgiving week (Thu is a holiday)",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-11-25",
+          "dow": "Wed",
+          "kind": "easy",
+          "title": "Short easy - run it in the MORNING",
+          "miles": 4,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Get it done before the day gets away from you",
+          "flags": [
+            "drinking-day",
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis"
+          ]
+        },
+        {
+          "date": "2026-11-26",
+          "dow": "Thu",
+          "kind": "easy",
+          "title": "Easy 3 (turkey trot if you want)",
+          "miles": 3,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Holiday - keep it social and short",
+          "flags": [
+            "holiday:Thanksgiving",
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-11-27",
+          "dow": "Fri",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - full rest",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-11-28",
+          "dow": "Sat",
+          "kind": "shakeout",
+          "title": "Easy shakeout - MORNING",
+          "miles": 2,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Short and early, before the day starts",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-11-29",
+          "dow": "Sun",
+          "kind": "long",
+          "title": "Long run 18 mi - miles 7-12 @ marathon pace",
+          "miles": 18,
+          "pace": "9:30-10:30 /mi",
+          "purpose": "The most important run of the week",
+          "flags": [],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "phase": "Peak",
+      "start": "2026-11-30",
+      "target_mileage": 46,
+      "long_run_mi": 20,
+      "planned_mileage": 46,
+      "notes": [],
+      "sessions": [
+        {
+          "date": "2026-11-30",
+          "dow": "Mon",
+          "kind": "easy",
+          "title": "Recovery jog + strength",
+          "miles": 5,
+          "pace": "10:30-11:15 /mi",
+          "purpose": "Easy shakeout, then lift",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis + Lecture 2"
+          ]
+        },
+        {
+          "date": "2026-12-01",
+          "dow": "Tue",
+          "kind": "easy",
+          "title": "Easy + 4-6 x 100 m strides",
+          "miles": 6,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Aerobic volume, quick feet at the end",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-12-02",
+          "dow": "Wed",
+          "kind": "easy",
+          "title": "Short easy - run it in the MORNING",
+          "miles": 4,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Get it done before the day gets away from you",
+          "flags": [
+            "drinking-day",
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis"
+          ]
+        },
+        {
+          "date": "2026-12-03",
+          "dow": "Thu",
+          "kind": "workout",
+          "title": "2 x 3 mi @ 7:55 (3 min jog) inside 9 mi",
+          "miles": 9,
+          "pace": "7:50-8:05 /mi",
+          "purpose": "Peak threshold",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-12-04",
+          "dow": "Fri",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - full rest",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-12-05",
+          "dow": "Sat",
+          "kind": "shakeout",
+          "title": "Easy shakeout - MORNING",
+          "miles": 2,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Short and early, before the day starts",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-12-06",
+          "dow": "Sun",
+          "kind": "long",
+          "title": "Long run 20 mi - last 4 mi @ marathon pace - key session",
+          "miles": 20,
+          "pace": "9:30-10:30 /mi",
+          "purpose": "The most important run of the week",
+          "flags": [],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "phase": "Peak",
+      "start": "2026-12-07",
+      "target_mileage": 40,
+      "long_run_mi": 15,
+      "planned_mileage": 33,
+      "notes": [],
+      "sessions": [
+        {
+          "date": "2026-12-07",
+          "dow": "Mon",
+          "kind": "strength",
+          "title": "Rest or 20 min shakeout + strength",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Down week - prioritise recovery",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis + Lecture 2"
+          ]
+        },
+        {
+          "date": "2026-12-08",
+          "dow": "Tue",
+          "kind": "easy",
+          "title": "Easy + 4-6 x 100 m strides",
+          "miles": 6,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Aerobic volume, quick feet at the end",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-12-09",
+          "dow": "Wed",
+          "kind": "easy",
+          "title": "Short easy - run it in the MORNING",
+          "miles": 4,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Get it done before the day gets away from you",
+          "flags": [
+            "drinking-day",
+            "class-day"
+          ],
+          "classes": [
+            "13:55-15:40 Real Estate Analysis"
+          ]
+        },
+        {
+          "date": "2026-12-10",
+          "dow": "Thu",
+          "kind": "workout",
+          "title": "8 mi progression, last 3 @ MP, inside 8 mi",
+          "miles": 8,
+          "pace": "7:50-8:05 /mi",
+          "purpose": "Down week - controlled progression",
+          "flags": [
+            "class-day"
+          ],
+          "classes": [
+            "09:35-11:30 Operations Management",
+            "13:55-14:45 Professional Writing"
+          ]
+        },
+        {
+          "date": "2026-12-11",
+          "dow": "Fri",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - full rest",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-12-12",
+          "dow": "Sat",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Rest day",
+          "flags": [
+            "travel:New York (cold)",
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-12-13",
+          "dow": "Sun",
+          "kind": "long",
+          "title": "Long run 15 mi",
+          "miles": 15,
+          "pace": "9:30-10:30 /mi",
+          "purpose": "The most important run of the week",
+          "flags": [
+            "travel:New York (cold)"
+          ],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "phase": "Peak",
+      "start": "2026-12-14",
+      "target_mileage": 48,
+      "long_run_mi": 20,
+      "planned_mileage": 45,
+      "notes": [
+        "You're in NYC and it's cold. This + next 2 weeks decide the race. Overdress, hat + gloves, or use a treadmill for the long run. Do not skip.",
+        "NYC block: cold-weather running - layers, wind at your back on the way home."
+      ],
+      "sessions": [
+        {
+          "date": "2026-12-14",
+          "dow": "Mon",
+          "kind": "easy",
+          "title": "Recovery jog + strength",
+          "miles": 6,
+          "pace": "10:30-11:15 /mi",
+          "purpose": "Easy shakeout, then lift",
+          "flags": [
+            "travel:New York (cold)"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-12-15",
+          "dow": "Tue",
+          "kind": "easy",
+          "title": "Easy + 4-6 x 100 m strides",
+          "miles": 7,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Aerobic volume, quick feet at the end",
+          "flags": [
+            "travel:New York (cold)"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-12-16",
+          "dow": "Wed",
+          "kind": "easy",
+          "title": "Short easy - run it in the MORNING",
+          "miles": 5,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Get it done before the day gets away from you",
+          "flags": [
+            "travel:New York (cold)",
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-12-17",
+          "dow": "Thu",
+          "kind": "workout",
+          "title": "5 x 1000 m @ 7:15 (400 jog) inside 7 mi",
+          "miles": 7,
+          "pace": "7:50-8:05 /mi",
+          "purpose": "Legs turnover before the big long run",
+          "flags": [
+            "travel:New York (cold)"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-12-18",
+          "dow": "Fri",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - full rest",
+          "flags": [
+            "travel:New York (cold)",
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-12-19",
+          "dow": "Sat",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Rest day",
+          "flags": [
+            "travel:New York (cold)",
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-12-20",
+          "dow": "Sun",
+          "kind": "long",
+          "title": "Long run 20 mi - steady; last 3 @ MP. COLD (NYC) - overdress or treadmill. Key session.",
+          "miles": 20,
+          "pace": "9:30-10:30 /mi",
+          "purpose": "The most important run of the week",
+          "flags": [
+            "travel:New York (cold)"
+          ],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "phase": "Peak",
+      "start": "2026-12-21",
+      "target_mileage": 44,
+      "long_run_mi": 16,
+      "planned_mileage": 42,
+      "notes": [
+        "NYC block: cold-weather running - layers, wind at your back on the way home."
+      ],
+      "sessions": [
+        {
+          "date": "2026-12-21",
+          "dow": "Mon",
+          "kind": "easy",
+          "title": "Recovery jog + strength",
+          "miles": 6,
+          "pace": "10:30-11:15 /mi",
+          "purpose": "Easy shakeout, then lift",
+          "flags": [
+            "travel:New York (cold)"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-12-22",
+          "dow": "Tue",
+          "kind": "easy",
+          "title": "Easy + 4-6 x 100 m strides",
+          "miles": 7,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Aerobic volume, quick feet at the end",
+          "flags": [
+            "travel:New York (cold)"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-12-23",
+          "dow": "Wed",
+          "kind": "easy",
+          "title": "Short easy - run it in the MORNING",
+          "miles": 5,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Get it done before the day gets away from you",
+          "flags": [
+            "travel:New York (cold)",
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-12-24",
+          "dow": "Thu",
+          "kind": "workout",
+          "title": "6 mi @ marathon pace (8:35) inside 8 mi",
+          "miles": 8,
+          "pace": "7:50-8:05 /mi",
+          "purpose": "Last big MP day",
+          "flags": [
+            "travel:New York (cold)"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-12-25",
+          "dow": "Fri",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - full rest",
+          "flags": [
+            "travel:New York (cold)",
+            "holiday:Christmas",
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-12-26",
+          "dow": "Sat",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Rest day",
+          "flags": [
+            "travel:New York (cold)",
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-12-27",
+          "dow": "Sun",
+          "kind": "long",
+          "title": "Long run 16 mi - last 4 mi @ marathon pace (NYC cold)",
+          "miles": 16,
+          "pace": "9:30-10:30 /mi",
+          "purpose": "The most important run of the week",
+          "flags": [
+            "travel:New York (cold)"
+          ],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "phase": "Peak",
+      "start": "2026-12-28",
+      "target_mileage": 38,
+      "long_run_mi": 13,
+      "planned_mileage": 27,
+      "notes": [
+        "NYC block: cold-weather running - layers, wind at your back on the way home.",
+        "NYE week - Thu/Fri are write-offs. Sat easy, Sun long run non-negotiable."
+      ],
+      "sessions": [
+        {
+          "date": "2026-12-28",
+          "dow": "Mon",
+          "kind": "strength",
+          "title": "Rest or 20 min shakeout + strength",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Down week - prioritise recovery",
+          "flags": [
+            "travel:New York (cold)"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-12-29",
+          "dow": "Tue",
+          "kind": "workout",
+          "title": "MOVED UP: 3 mi tempo @ 7:55 inside 6 mi",
+          "miles": 6,
+          "pace": "7:50-8:05 /mi",
+          "purpose": "Taper begins - stay sharp, not tired (Thu is a holiday)",
+          "flags": [
+            "travel:New York (cold)"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-12-30",
+          "dow": "Wed",
+          "kind": "easy",
+          "title": "Short easy - run it in the MORNING",
+          "miles": 5,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Get it done before the day gets away from you",
+          "flags": [
+            "travel:New York (cold)",
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2026-12-31",
+          "dow": "Thu",
+          "kind": "easy",
+          "title": "Easy 3 (turkey trot if you want)",
+          "miles": 3,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Holiday - keep it social and short",
+          "flags": [
+            "travel:New York (cold)",
+            "holiday:New Year's Eve"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2027-01-01",
+          "dow": "Fri",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - full rest",
+          "flags": [
+            "travel:New York (cold)",
+            "holiday:New Year's Day",
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2027-01-02",
+          "dow": "Sat",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Rest day",
+          "flags": [
+            "travel:New York (cold)",
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2027-01-03",
+          "dow": "Sun",
+          "kind": "long",
+          "title": "Long run 13 mi",
+          "miles": 13,
+          "pace": "9:30-10:30 /mi",
+          "purpose": "The most important run of the week",
+          "flags": [
+            "travel:New York (cold)"
+          ],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "phase": "Taper",
+      "start": "2027-01-04",
+      "target_mileage": 32,
+      "long_run_mi": 12,
+      "planned_mileage": 28,
+      "notes": [
+        "NYC block: cold-weather running - layers, wind at your back on the way home."
+      ],
+      "sessions": [
+        {
+          "date": "2027-01-04",
+          "dow": "Mon",
+          "kind": "strength",
+          "title": "Rest or 20 min shakeout + strength",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Down week - prioritise recovery",
+          "flags": [
+            "travel:New York (cold)"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2027-01-05",
+          "dow": "Tue",
+          "kind": "easy",
+          "title": "Easy + 4-6 x 100 m strides",
+          "miles": 5,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Aerobic volume, quick feet at the end",
+          "flags": [
+            "travel:New York (cold)"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2027-01-06",
+          "dow": "Wed",
+          "kind": "easy",
+          "title": "Short easy - run it in the MORNING",
+          "miles": 3,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Get it done before the day gets away from you",
+          "flags": [
+            "travel:New York (cold)",
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2027-01-07",
+          "dow": "Thu",
+          "kind": "workout",
+          "title": "4 mi @ marathon pace (8:35) inside 6 mi",
+          "miles": 6,
+          "pace": "7:50-8:05 /mi",
+          "purpose": "Race-pace feel, low volume",
+          "flags": [],
+          "classes": []
+        },
+        {
+          "date": "2027-01-08",
+          "dow": "Fri",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - full rest",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2027-01-09",
+          "dow": "Sat",
+          "kind": "shakeout",
+          "title": "Easy shakeout - MORNING",
+          "miles": 2,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Short and early, before the day starts",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2027-01-10",
+          "dow": "Sun",
+          "kind": "long",
+          "title": "Long run 12 mi",
+          "miles": 12,
+          "pace": "9:30-10:30 /mi",
+          "purpose": "The most important run of the week",
+          "flags": [],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "phase": "Taper",
+      "start": "2027-01-11",
+      "target_mileage": 26,
+      "long_run_mi": 10,
+      "planned_mileage": 22,
+      "notes": [],
+      "sessions": [
+        {
+          "date": "2027-01-11",
+          "dow": "Mon",
+          "kind": "strength",
+          "title": "Rest or 20 min shakeout + strength",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Down week - prioritise recovery",
+          "flags": [],
+          "classes": []
+        },
+        {
+          "date": "2027-01-12",
+          "dow": "Tue",
+          "kind": "easy",
+          "title": "Easy + 4-6 x 100 m strides",
+          "miles": 4,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Aerobic volume, quick feet at the end",
+          "flags": [],
+          "classes": []
+        },
+        {
+          "date": "2027-01-13",
+          "dow": "Wed",
+          "kind": "easy",
+          "title": "Short easy - run it in the MORNING",
+          "miles": 3,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Get it done before the day gets away from you",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2027-01-14",
+          "dow": "Thu",
+          "kind": "workout",
+          "title": "3 mi @ marathon pace (8:35) inside 5 mi",
+          "miles": 5,
+          "pace": "7:50-8:05 /mi",
+          "purpose": "Short, crisp",
+          "flags": [],
+          "classes": []
+        },
+        {
+          "date": "2027-01-15",
+          "dow": "Fri",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - full rest",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2027-01-16",
+          "dow": "Sat",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Optional full rest",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2027-01-17",
+          "dow": "Sun",
+          "kind": "long",
+          "title": "Long run 10 mi",
+          "miles": 10,
+          "pace": "9:30-10:30 /mi",
+          "purpose": "The most important run of the week",
+          "flags": [],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "phase": "Taper",
+      "start": "2027-01-18",
+      "target_mileage": 18,
+      "long_run_mi": 8,
+      "planned_mileage": 16,
+      "notes": [],
+      "sessions": [
+        {
+          "date": "2027-01-18",
+          "dow": "Mon",
+          "kind": "strength",
+          "title": "Rest or 20 min shakeout + strength",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Down week - prioritise recovery",
+          "flags": [],
+          "classes": []
+        },
+        {
+          "date": "2027-01-19",
+          "dow": "Tue",
+          "kind": "easy",
+          "title": "Easy + 4-6 x 100 m strides",
+          "miles": 3,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Aerobic volume, quick feet at the end",
+          "flags": [],
+          "classes": []
+        },
+        {
+          "date": "2027-01-20",
+          "dow": "Wed",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - no run",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2027-01-21",
+          "dow": "Thu",
+          "kind": "workout",
+          "title": "2 mi @ 7:55 + 4 x 100 m strides inside 5 mi",
+          "miles": 5,
+          "pace": "7:50-8:05 /mi",
+          "purpose": "Prime the system",
+          "flags": [],
+          "classes": []
+        },
+        {
+          "date": "2027-01-22",
+          "dow": "Fri",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Drinking day - full rest",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2027-01-23",
+          "dow": "Sat",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Optional full rest",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2027-01-24",
+          "dow": "Sun",
+          "kind": "long",
+          "title": "Long run 8 mi",
+          "miles": 8,
+          "pace": "9:30-10:30 /mi",
+          "purpose": "The most important run of the week",
+          "flags": [],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "phase": "Taper",
+      "start": "2027-01-25",
+      "target_mileage": 26.2,
+      "long_run_mi": 26.2,
+      "planned_mileage": 14,
+      "notes": [
+        "RACE WEEK. Sleep is the training now. Lay out kit Sat night. Miami is warm - dress like it's 15 degrees warmer than the thermometer."
+      ],
+      "sessions": [
+        {
+          "date": "2027-01-25",
+          "dow": "Mon",
+          "kind": "easy",
+          "title": "Easy shakeout",
+          "miles": 4,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Legs stay used to running",
+          "flags": [],
+          "classes": []
+        },
+        {
+          "date": "2027-01-26",
+          "dow": "Tue",
+          "kind": "easy",
+          "title": "Easy + 4 x 100 m strides",
+          "miles": 5,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Last touch of turnover",
+          "flags": [],
+          "classes": []
+        },
+        {
+          "date": "2027-01-27",
+          "dow": "Wed",
+          "kind": "rest",
+          "title": "Rest",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Nothing - let the taper work",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2027-01-28",
+          "dow": "Thu",
+          "kind": "easy",
+          "title": "Easy",
+          "miles": 3,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Loosen up, drive/fly to Miami after",
+          "flags": [],
+          "classes": []
+        },
+        {
+          "date": "2027-01-29",
+          "dow": "Fri",
+          "kind": "shakeout",
+          "title": "Shakeout + travel to Miami",
+          "miles": 2,
+          "pace": "9:45-10:45 /mi",
+          "purpose": "Legs open, then expo",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2027-01-30",
+          "dow": "Sat",
+          "kind": "rest",
+          "title": "Rest / expo (optional 1-2 mi walk)",
+          "miles": 0,
+          "pace": "-",
+          "purpose": "Stay off your feet, hydrate, carbs",
+          "flags": [
+            "drinking-day"
+          ],
+          "classes": []
+        },
+        {
+          "date": "2027-01-31",
+          "dow": "Sun",
+          "kind": "race",
+          "title": "MIAMI MARATHON - 26.2",
+          "miles": 26.2,
+          "pace": "8:35 /mi",
+          "purpose": "First half 8:40-8:45, settle in. Halfway ~1:53. Negative split. 6:00 AM start.",
+          "flags": [],
+          "classes": []
+        }
+      ]
+    }
+  ]
+}
