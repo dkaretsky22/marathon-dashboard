@@ -5,24 +5,84 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - run: pip install requests
+
+      # FIX 1 — fail loudly if the secrets are missing, instead of falling
+      # through to config.json (which does not exist on the runner).
+      - name: Check secrets are present
+        env:
+          ID: ${{ secrets.STRAVA_CLIENT_ID }}
+          SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
+          TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
+        run: |
+          missing=0
+          [ -z "$ID" ]     && echo "::error::STRAVA_CLIENT_ID secret is not set"     && missing=1
+          [ -z "$SECRET" ] && echo "::error::STRAVA_CLIENT_SECRET secret is not set" && missing=1
+          [ -z "$TOKEN" ]  && echo "::error::STRAVA_REFRESH_TOKEN secret is not set" && missing=1
+          exit $missing
+
+      # FIX 2 — make sure data/strava_state.json exists BEFORE the sync runs.
+      # Without it, the `git add` below aborted on a missing pathspec and
+      # staged nothing at all, so the rotated refresh token was never
+      # committed. The next run then 401'd forever. This is almost certainly
+      # why the sync worked once and then stopped.
+      - name: Ensure state file exists
+        env:
+          TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
+        run: |
+          mkdir -p data
+          if [ ! -f data/strava_state.json ]; then
+            printf '{\n  "refresh_token": "%s"\n}\n' "$TOKEN" > data/strava_state.json
+            echo "Seeded data/strava_state.json from the secret."
+          fi
+
       - name: Sync Strava
         env:
           STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
           STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
           STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
         run: python scripts/strava_sync.py
-      - name: Save data
+
+      # FIX 3 — stage each file separately so one missing file cannot
+      # silently cancel the whole commit, and never swallow a real error.
+      - name: Commit data
         run: |
           git config user.name "strava-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/data.js data/activities.json data/strava_state.json 2>/dev/null || true
-          git diff --staged --quiet || (git commit -m "sync" && git push)
+          for f in data/data.js data/activities.json data/strava_state.json; do
+            [ -f "$f" ] && git add "$f"
+          done
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "sync: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+
+      # FIX 4 — a scheduled workflow that fails quietly is the same as no
+      # workflow. This writes a visible summary on every run.
+      - name: Report
+        if: always()
+        run: |
+          echo "### Strava sync — ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
+          echo "Last activity in data:" >> $GITHUB_STEP_SUMMARY
+          python - <<'PY' >> $GITHUB_STEP_SUMMARY
+          import json, pathlib
+          p = pathlib.Path("data/activities.json")
+          if p.exists():
+              acts = json.loads(p.read_text()).get("activities", [])
+              print(f"- {len(acts)} activities, newest {acts[0]['date'] if acts else 'none'}")
+          else:
+              print("- data/activities.json missing")
+          PY
