@@ -1,4 +1,4 @@
-name: Strava sync
+name: Strava + Garmin sync
 on:
   schedule:
     - cron: "17 * * * *"
@@ -16,10 +16,10 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install requests
+      - run: pip install requests garminconnect
 
-      # FIX 1 — fail loudly if the secrets are missing, instead of falling
-      # through to config.json (which does not exist on the runner).
+      # FIX 1 — fail loudly if the Strava secrets are missing, instead of
+      # falling through to config.json (which does not exist on the runner).
       - name: Check secrets are present
         env:
           ID: ${{ secrets.STRAVA_CLIENT_ID }}
@@ -54,13 +54,58 @@ jobs:
           STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
         run: python scripts/strava_sync.py
 
+      # Garmin carries everything Strava's API does not expose: resting HR,
+      # HRV, sleep, VO2 max, weight. Separate script, separate secret.
+      #
+      # continue-on-error is deliberate. Garmin's endpoints are private and
+      # change without notice; a broken Garmin pull must never stop the
+      # Strava data from being committed.
+      - name: Sync Garmin
+        id: garmin
+        if: ${{ env.GARMINTOKENS_BASE64 != '' }}
+        continue-on-error: true
+        env:
+          GARMINTOKENS_BASE64: ${{ secrets.GARMINTOKENS_BASE64 }}
+        run: python scripts/garmin_sync.py --days 14
+
+      - name: Note if Garmin is not linked
+        if: ${{ env.GARMINTOKENS_BASE64 == '' }}
+        env:
+          GARMINTOKENS_BASE64: ${{ secrets.GARMINTOKENS_BASE64 }}
+        run: echo "::notice::GARMINTOKENS_BASE64 not set — skipping Garmin. See garmin-sync/SETUP.md."
+
+      # The rotated refresh token goes back into the GitHub Secret, NOT into
+      # the repo. That is what makes the repo safe to make public: no
+      # credential is ever committed. Needs a fine-grained PAT with
+      # "Secrets: read and write" on this repo, saved as REPO_PAT.
+      - name: Save rotated Strava token back to the secret
+        if: ${{ env.REPO_PAT != '' }}
+        env:
+          REPO_PAT: ${{ secrets.REPO_PAT }}
+          GH_TOKEN: ${{ secrets.REPO_PAT }}
+        run: |
+          NEW=$(python -c "import json;print(json.load(open('data/strava_state.json'))['refresh_token'])")
+          if [ -n "$NEW" ]; then
+            gh secret set STRAVA_REFRESH_TOKEN --body "$NEW" --repo "${{ github.repository }}"
+            echo "Refresh token rotated into the secret."
+          fi
+          rm -f data/strava_state.json
+
+      - name: Warn if the token cannot be rotated safely
+        if: ${{ env.REPO_PAT == '' }}
+        env:
+          REPO_PAT: ${{ secrets.REPO_PAT }}
+        run: |
+          echo "::warning::REPO_PAT not set — data/strava_state.json will be committed. Keep this repo PRIVATE until REPO_PAT exists. See garmin-sync/SETUP.md."
+          git add data/strava_state.json || true
+
       # FIX 3 — stage each file separately so one missing file cannot
       # silently cancel the whole commit, and never swallow a real error.
       - name: Commit data
         run: |
           git config user.name "strava-bot"
           git config user.email "actions@users.noreply.github.com"
-          for f in data/data.js data/activities.json data/strava_state.json; do
+          for f in data/data.js data/activities.json data/garmin.json; do
             [ -f "$f" ] && git add "$f"
           done
           if git diff --staged --quiet; then
@@ -75,14 +120,20 @@ jobs:
       - name: Report
         if: always()
         run: |
-          echo "### Strava sync — ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
-          echo "Last activity in data:" >> $GITHUB_STEP_SUMMARY
+          echo "### Sync — ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
           python - <<'PY' >> $GITHUB_STEP_SUMMARY
           import json, pathlib
           p = pathlib.Path("data/activities.json")
           if p.exists():
               acts = json.loads(p.read_text()).get("activities", [])
-              print(f"- {len(acts)} activities, newest {acts[0]['date'] if acts else 'none'}")
+              print(f"- Strava: {len(acts)} activities, newest {acts[0]['date'] if acts else 'none'}")
           else:
-              print("- data/activities.json missing")
+              print("- Strava: data/activities.json missing")
+          g = pathlib.Path("data/garmin.json")
+          if g.exists():
+              latest = json.loads(g.read_text()).get("latest", {})
+              print(f"- Garmin: {latest.get('date')} — resting HR {latest.get('resting_hr')}, "
+                    f"sleep {latest.get('sleep_hours')} h, HRV {latest.get('hrv_ms')} ms")
+          else:
+              print("- Garmin: not linked yet (no data/garmin.json)")
           PY
