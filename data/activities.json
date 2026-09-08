@@ -1,6 +1,25 @@
 {
-  "count": 289,
+  "count": 290,
   "activities": [
+    {
+      "id": "20093746387",
+      "source": "strava",
+      "name": "Quick lift - 4 miles up next",
+      "sport": "WeightTraining",
+      "is_run": false,
+      "start_date": "2026-09-08T16:03:41",
+      "date": "2026-09-08",
+      "distance_mi": 0.0,
+      "moving_time_s": 1230,
+      "elapsed_time_s": 1230,
+      "pace_min_per_mi": null,
+      "avg_hr": 101.4,
+      "max_hr": 136.0,
+      "elev_gain_ft": 0.0,
+      "avg_speed_mph": 0.0,
+      "suffer_score": 3.0,
+      "workout_type": 30
+    },
     {
       "id": "20075971139",
       "source": "strava",
