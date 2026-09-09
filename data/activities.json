@@ -1,6 +1,25 @@
 {
-  "count": 292,
+  "count": 293,
   "activities": [
+    {
+      "id": "20109149957",
+      "source": "strava",
+      "name": "Evening Run",
+      "sport": "Run",
+      "is_run": true,
+      "start_date": "2026-09-09T18:05:45",
+      "date": "2026-09-09",
+      "distance_mi": 1.0,
+      "moving_time_s": 621,
+      "elapsed_time_s": 621,
+      "pace_min_per_mi": 10.31,
+      "avg_hr": 136.7,
+      "max_hr": 151.0,
+      "elev_gain_ft": 24.0,
+      "avg_speed_mph": 5.82,
+      "suffer_score": 4.0,
+      "workout_type": null
+    },
     {
       "id": "20107576780",
       "source": "strava",
