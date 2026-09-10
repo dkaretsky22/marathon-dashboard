@@ -1,6 +1,25 @@
 {
-  "count": 293,
+  "count": 294,
   "activities": [
+    {
+      "id": "20119107673",
+      "source": "strava",
+      "name": "Fuck I'm tired",
+      "sport": "Run",
+      "is_run": true,
+      "start_date": "2026-09-10T12:05:29",
+      "date": "2026-09-10",
+      "distance_mi": 4.01,
+      "moving_time_s": 2323,
+      "elapsed_time_s": 2329,
+      "pace_min_per_mi": 9.66,
+      "avg_hr": 156.4,
+      "max_hr": 176.0,
+      "elev_gain_ft": 58.1,
+      "avg_speed_mph": 6.21,
+      "suffer_score": 68.0,
+      "workout_type": 0
+    },
     {
       "id": "20109149957",
       "source": "strava",
