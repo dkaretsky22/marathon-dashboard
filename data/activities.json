@@ -1,6 +1,25 @@
 {
-  "count": 295,
+  "count": 296,
   "activities": [
+    {
+      "id": "20137351229",
+      "source": "strava",
+      "name": "10 for 9/11 \ud83c\uddfa\ud83c\uddf8\u2764\ufe0f",
+      "sport": "Run",
+      "is_run": true,
+      "start_date": "2026-09-11T20:18:17",
+      "date": "2026-09-11",
+      "distance_mi": 10.01,
+      "moving_time_s": 5453,
+      "elapsed_time_s": 5506,
+      "pace_min_per_mi": 9.08,
+      "avg_hr": 161.8,
+      "max_hr": 178.0,
+      "elev_gain_ft": 265.4,
+      "avg_speed_mph": 6.61,
+      "suffer_score": 195.0,
+      "workout_type": 0
+    },
     {
       "id": "20135123966",
       "source": "strava",
