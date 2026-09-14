@@ -1,6 +1,25 @@
 {
-  "count": 296,
+  "count": 297,
   "activities": [
+    {
+      "id": "20164803589",
+      "source": "strava",
+      "name": "Night 10k",
+      "sport": "Run",
+      "is_run": true,
+      "start_date": "2026-09-13T18:59:01",
+      "date": "2026-09-13",
+      "distance_mi": 6.21,
+      "moving_time_s": 3363,
+      "elapsed_time_s": 3363,
+      "pace_min_per_mi": 9.03,
+      "avg_hr": 161.9,
+      "max_hr": 183.0,
+      "elev_gain_ft": 136.8,
+      "avg_speed_mph": 6.64,
+      "suffer_score": 127.0,
+      "workout_type": 0
+    },
     {
       "id": "20137351229",
       "source": "strava",
