@@ -1,6 +1,25 @@
 {
-  "count": 301,
+  "count": 302,
   "activities": [
+    {
+      "id": "20206675842",
+      "source": "strava",
+      "name": "Wasn't supposed to run",
+      "sport": "Run",
+      "is_run": true,
+      "start_date": "2026-09-16T18:30:15",
+      "date": "2026-09-16",
+      "distance_mi": 3.1,
+      "moving_time_s": 1300,
+      "elapsed_time_s": 1300,
+      "pace_min_per_mi": 6.98,
+      "avg_hr": 180.3,
+      "max_hr": 191.0,
+      "elev_gain_ft": 0.0,
+      "avg_speed_mph": 8.59,
+      "suffer_score": 83.0,
+      "workout_type": null
+    },
     {
       "id": "20185064582",
       "source": "strava",
