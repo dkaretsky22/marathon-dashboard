@@ -1,6 +1,25 @@
 {
-  "count": 303,
+  "count": 304,
   "activities": [
+    {
+      "id": "20227525425",
+      "source": "strava",
+      "name": "Threshold testin",
+      "sport": "Run",
+      "is_run": true,
+      "start_date": "2026-09-18T09:03:50",
+      "date": "2026-09-18",
+      "distance_mi": 6.0,
+      "moving_time_s": 3254,
+      "elapsed_time_s": 3254,
+      "pace_min_per_mi": 9.03,
+      "avg_hr": 159.9,
+      "max_hr": 183.0,
+      "elev_gain_ft": 81.7,
+      "avg_speed_mph": 6.64,
+      "suffer_score": 113.0,
+      "workout_type": 0
+    },
     {
       "id": "20214504474",
       "source": "strava",
