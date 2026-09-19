@@ -1,6 +1,25 @@
 {
-  "count": 304,
+  "count": 305,
   "activities": [
+    {
+      "id": "20232844365",
+      "source": "strava",
+      "name": "Sharms",
+      "sport": "WeightTraining",
+      "is_run": false,
+      "start_date": "2026-09-18T18:31:38",
+      "date": "2026-09-18",
+      "distance_mi": 0.0,
+      "moving_time_s": 1899,
+      "elapsed_time_s": 1899,
+      "pace_min_per_mi": null,
+      "avg_hr": 84.3,
+      "max_hr": 117.0,
+      "elev_gain_ft": 0.0,
+      "avg_speed_mph": 0.0,
+      "suffer_score": 3.0,
+      "workout_type": 30
+    },
     {
       "id": "20227525425",
       "source": "strava",
