@@ -1,6 +1,25 @@
 {
-  "count": 307,
+  "count": 308,
   "activities": [
+    {
+      "id": "20262043795",
+      "source": "strava",
+      "name": "Longest run of training so far",
+      "sport": "Run",
+      "is_run": true,
+      "start_date": "2026-09-20T19:21:23",
+      "date": "2026-09-20",
+      "distance_mi": 12.0,
+      "moving_time_s": 6732,
+      "elapsed_time_s": 6732,
+      "pace_min_per_mi": 9.35,
+      "avg_hr": 151.1,
+      "max_hr": 173.0,
+      "elev_gain_ft": 281.8,
+      "avg_speed_mph": 6.42,
+      "suffer_score": 157.0,
+      "workout_type": 0
+    },
     {
       "id": "20246940793",
       "source": "strava",
