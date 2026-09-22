@@ -1,6 +1,25 @@
 {
-  "count": 308,
+  "count": 309,
   "activities": [
+    {
+      "id": "20275723144",
+      "source": "strava",
+      "name": "Night Weight Training",
+      "sport": "WeightTraining",
+      "is_run": false,
+      "start_date": "2026-09-21T21:10:43",
+      "date": "2026-09-21",
+      "distance_mi": 0.0,
+      "moving_time_s": 1700,
+      "elapsed_time_s": 1700,
+      "pace_min_per_mi": null,
+      "avg_hr": 100.7,
+      "max_hr": 139.0,
+      "elev_gain_ft": 0.0,
+      "avg_speed_mph": 0.0,
+      "suffer_score": 4.0,
+      "workout_type": 30
+    },
     {
       "id": "20262043795",
       "source": "strava",
