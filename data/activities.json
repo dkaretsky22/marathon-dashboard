@@ -1,6 +1,25 @@
 {
-  "count": 315,
+  "count": 316,
   "activities": [
+    {
+      "id": "20322976547",
+      "source": "strava",
+      "name": "Run / Hike",
+      "sport": "Run",
+      "is_run": true,
+      "start_date": "2026-09-25T11:40:09",
+      "date": "2026-09-25",
+      "distance_mi": 10.0,
+      "moving_time_s": 5933,
+      "elapsed_time_s": 7839,
+      "pace_min_per_mi": 9.88,
+      "avg_hr": 155.5,
+      "max_hr": 176.0,
+      "elev_gain_ft": 260.2,
+      "avg_speed_mph": 6.07,
+      "suffer_score": 165.0,
+      "workout_type": null
+    },
     {
       "id": "20310991130",
       "source": "strava",
