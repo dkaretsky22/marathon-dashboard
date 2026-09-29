@@ -1,6 +1,25 @@
 {
-  "count": 319,
+  "count": 320,
   "activities": [
+    {
+      "id": "20381582739",
+      "source": "strava",
+      "name": "No idea where I ran to",
+      "sport": "Run",
+      "is_run": true,
+      "start_date": "2026-09-29T12:45:08",
+      "date": "2026-09-29",
+      "distance_mi": 4.5,
+      "moving_time_s": 2480,
+      "elapsed_time_s": 2494,
+      "pace_min_per_mi": 9.18,
+      "avg_hr": 156.4,
+      "max_hr": 172.0,
+      "elev_gain_ft": 64.3,
+      "avg_speed_mph": 6.54,
+      "suffer_score": 73.0,
+      "workout_type": 0
+    },
     {
       "id": "20379747273",
       "source": "strava",
