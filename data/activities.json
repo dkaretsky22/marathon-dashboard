@@ -1,6 +1,25 @@
 {
-  "count": 321,
+  "count": 322,
   "activities": [
+    {
+      "id": "20407466123",
+      "source": "strava",
+      "name": "Quick 3 before Vegas",
+      "sport": "Run",
+      "is_run": true,
+      "start_date": "2026-10-01T09:45:21",
+      "date": "2026-10-01",
+      "distance_mi": 3.03,
+      "moving_time_s": 1672,
+      "elapsed_time_s": 1672,
+      "pace_min_per_mi": 9.2,
+      "avg_hr": 154.3,
+      "max_hr": 177.0,
+      "elev_gain_ft": 65.6,
+      "avg_speed_mph": 6.52,
+      "suffer_score": 45.0,
+      "workout_type": 0
+    },
     {
       "id": "20398973803",
       "source": "strava",
