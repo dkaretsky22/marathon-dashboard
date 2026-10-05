@@ -1,6 +1,25 @@
 {
-  "count": 322,
+  "count": 323,
   "activities": [
+    {
+      "id": "20461390598",
+      "source": "strava",
+      "name": "Chest tri shoulder",
+      "sport": "WeightTraining",
+      "is_run": false,
+      "start_date": "2026-10-05T10:52:36",
+      "date": "2026-10-05",
+      "distance_mi": 0.0,
+      "moving_time_s": 1853,
+      "elapsed_time_s": 1853,
+      "pace_min_per_mi": null,
+      "avg_hr": 86.2,
+      "max_hr": 120.0,
+      "elev_gain_ft": 0.0,
+      "avg_speed_mph": 0.0,
+      "suffer_score": 3.0,
+      "workout_type": 30
+    },
     {
       "id": "20407466123",
       "source": "strava",
