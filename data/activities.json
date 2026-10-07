@@ -1,6 +1,25 @@
 {
-  "count": 325,
+  "count": 326,
   "activities": [
+    {
+      "id": "20481102110",
+      "source": "strava",
+      "name": "Recovery run",
+      "sport": "Run",
+      "is_run": true,
+      "start_date": "2026-10-06T17:22:02",
+      "date": "2026-10-06",
+      "distance_mi": 6.02,
+      "moving_time_s": 3542,
+      "elapsed_time_s": 3576,
+      "pace_min_per_mi": 9.8,
+      "avg_hr": 145.6,
+      "max_hr": 173.0,
+      "elev_gain_ft": 100.1,
+      "avg_speed_mph": 6.12,
+      "suffer_score": 59.0,
+      "workout_type": null
+    },
     {
       "id": "20480013713",
       "source": "strava",
