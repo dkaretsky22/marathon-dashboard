@@ -1,6 +1,25 @@
 {
-  "count": 327,
+  "count": 328,
   "activities": [
+    {
+      "id": "20515507536",
+      "source": "strava",
+      "name": "Big 14",
+      "sport": "Run",
+      "is_run": true,
+      "start_date": "2026-10-09T06:55:56",
+      "date": "2026-10-09",
+      "distance_mi": 14.01,
+      "moving_time_s": 7793,
+      "elapsed_time_s": 7804,
+      "pace_min_per_mi": 9.27,
+      "avg_hr": 154.8,
+      "max_hr": 179.0,
+      "elev_gain_ft": 375.0,
+      "avg_speed_mph": 6.47,
+      "suffer_score": 214.0,
+      "workout_type": 0
+    },
     {
       "id": "20491069600",
       "source": "strava",
