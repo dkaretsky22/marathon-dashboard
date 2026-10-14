@@ -4,7 +4,7 @@
     {
       "id": "20585707102",
       "source": "strava",
-      "name": "Afternoon Run",
+      "name": "Hot outside",
       "sport": "Run",
       "is_run": true,
       "start_date": "2026-10-14T13:12:48",
@@ -18,7 +18,7 @@
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 7.32,
       "suffer_score": 78.0,
-      "workout_type": null
+      "workout_type": 0
     },
     {
       "id": "20585631351",
