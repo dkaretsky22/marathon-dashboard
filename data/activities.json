@@ -1,6 +1,25 @@
 {
-  "count": 339,
+  "count": 340,
   "activities": [
+    {
+      "id": "20627699919",
+      "source": "strava",
+      "name": "Recovery run - peak conditions",
+      "sport": "Run",
+      "is_run": true,
+      "start_date": "2026-10-17T18:57:13",
+      "date": "2026-10-17",
+      "distance_mi": 3.11,
+      "moving_time_s": 1839,
+      "elapsed_time_s": 1839,
+      "pace_min_per_mi": 9.85,
+      "avg_hr": 139.3,
+      "max_hr": 149.0,
+      "elev_gain_ft": 57.7,
+      "avg_speed_mph": 6.09,
+      "suffer_score": 18.0,
+      "workout_type": 0
+    },
     {
       "id": "20627366706",
       "source": "strava",
