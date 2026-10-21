@@ -1,6 +1,25 @@
 {
-  "count": 345,
+  "count": 346,
   "activities": [
+    {
+      "id": "20668276207",
+      "source": "strava",
+      "name": "Evening Run - new shoes",
+      "sport": "Run",
+      "is_run": true,
+      "start_date": "2026-10-20T18:53:58",
+      "date": "2026-10-20",
+      "distance_mi": 5.0,
+      "moving_time_s": 2512,
+      "elapsed_time_s": 2515,
+      "pace_min_per_mi": 8.37,
+      "avg_hr": 153.3,
+      "max_hr": 179.0,
+      "elev_gain_ft": 82.3,
+      "avg_speed_mph": 7.17,
+      "suffer_score": 66.0,
+      "workout_type": null
+    },
     {
       "id": "20666496352",
       "source": "strava",
