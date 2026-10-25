@@ -4,7 +4,7 @@
     {
       "id": "20718458207",
       "source": "strava",
-      "name": "Afternoon Run",
+      "name": "Nashvilles cool",
       "sport": "Run",
       "is_run": true,
       "start_date": "2026-10-24T17:35:38",
@@ -18,7 +18,7 @@
       "elev_gain_ft": 139.8,
       "avg_speed_mph": 6.74,
       "suffer_score": 22.0,
-      "workout_type": null
+      "workout_type": 0
     },
     {
       "id": "20688859247",
