@@ -1,6 +1,25 @@
 {
-  "count": 354,
+  "count": 355,
   "activities": [
+    {
+      "id": "20756534219",
+      "source": "strava",
+      "name": "Afternoon Weight Training",
+      "sport": "WeightTraining",
+      "is_run": false,
+      "start_date": "2026-10-27T15:47:57",
+      "date": "2026-10-27",
+      "distance_mi": 0.0,
+      "moving_time_s": 1801,
+      "elapsed_time_s": 1801,
+      "pace_min_per_mi": null,
+      "avg_hr": 91.2,
+      "max_hr": 122.0,
+      "elev_gain_ft": 0.0,
+      "avg_speed_mph": 0.0,
+      "suffer_score": 3.0,
+      "workout_type": 30
+    },
     {
       "id": "20743735537",
       "source": "strava",
