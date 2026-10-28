@@ -1,6 +1,25 @@
 {
-  "count": 356,
+  "count": 357,
   "activities": [
+    {
+      "id": "20769121439",
+      "source": "strava",
+      "name": "Wow I'm Unc",
+      "sport": "Run",
+      "is_run": true,
+      "start_date": "2026-10-28T14:19:22",
+      "date": "2026-10-28",
+      "distance_mi": 4.01,
+      "moving_time_s": 2120,
+      "elapsed_time_s": 2120,
+      "pace_min_per_mi": 8.82,
+      "avg_hr": 161.2,
+      "max_hr": 179.0,
+      "elev_gain_ft": 43.3,
+      "avg_speed_mph": 6.8,
+      "suffer_score": 73.0,
+      "workout_type": 0
+    },
     {
       "id": "20768336829",
       "source": "strava",
