@@ -1,6 +1,25 @@
 {
-  "count": 358,
+  "count": 359,
   "activities": [
+    {
+      "id": "20794039432",
+      "source": "strava",
+      "name": "10 miles at below race pace - legs r tired",
+      "sport": "Run",
+      "is_run": true,
+      "start_date": "2026-10-30T12:20:40",
+      "date": "2026-10-30",
+      "distance_mi": 10.0,
+      "moving_time_s": 5004,
+      "elapsed_time_s": 5023,
+      "pace_min_per_mi": 8.34,
+      "avg_hr": 165.6,
+      "max_hr": 182.0,
+      "elev_gain_ft": 219.2,
+      "avg_speed_mph": 7.2,
+      "suffer_score": 215.0,
+      "workout_type": 0
+    },
     {
       "id": "20784813382",
       "source": "strava",
