@@ -1,6 +1,25 @@
 {
-  "count": 357,
+  "count": 358,
   "activities": [
+    {
+      "id": "20784813382",
+      "source": "strava",
+      "name": "Afternoon Run",
+      "sport": "Run",
+      "is_run": true,
+      "start_date": "2026-10-29T17:41:56",
+      "date": "2026-10-29",
+      "distance_mi": 4.12,
+      "moving_time_s": 1901,
+      "elapsed_time_s": 1918,
+      "pace_min_per_mi": 7.7,
+      "avg_hr": 164.0,
+      "max_hr": 179.0,
+      "elev_gain_ft": 0.0,
+      "avg_speed_mph": 7.8,
+      "suffer_score": 77.0,
+      "workout_type": null
+    },
     {
       "id": "20769121439",
       "source": "strava",
