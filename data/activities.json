@@ -1,6 +1,25 @@
 {
-  "count": 362,
+  "count": 363,
   "activities": [
+    {
+      "id": "20914039558",
+      "source": "strava",
+      "name": "Afternoon Walk",
+      "sport": "Walk",
+      "is_run": false,
+      "start_date": "2026-11-08T14:29:23",
+      "date": "2026-11-08",
+      "distance_mi": 3.0,
+      "moving_time_s": 3533,
+      "elapsed_time_s": 4011,
+      "pace_min_per_mi": 19.61,
+      "avg_hr": 86.3,
+      "max_hr": 100.0,
+      "elev_gain_ft": 58.1,
+      "avg_speed_mph": 3.06,
+      "suffer_score": 6.0,
+      "workout_type": null
+    },
     {
       "id": "20899613019",
       "source": "strava",
