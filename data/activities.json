@@ -1,6 +1,25 @@
 {
-  "count": 364,
+  "count": 365,
   "activities": [
+    {
+      "id": "20922925966",
+      "source": "strava",
+      "name": "Lunch Walk",
+      "sport": "Walk",
+      "is_run": false,
+      "start_date": "2026-11-09T11:58:15",
+      "date": "2026-11-09",
+      "distance_mi": 2.52,
+      "moving_time_s": 3098,
+      "elapsed_time_s": 3098,
+      "pace_min_per_mi": 20.49,
+      "avg_hr": 90.5,
+      "max_hr": 104.0,
+      "elev_gain_ft": 37.7,
+      "avg_speed_mph": 2.93,
+      "suffer_score": 6.0,
+      "workout_type": null
+    },
     {
       "id": "20914849689",
       "source": "strava",
