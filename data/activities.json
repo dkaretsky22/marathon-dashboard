@@ -1,6 +1,25 @@
 {
-  "count": 363,
+  "count": 364,
   "activities": [
+    {
+      "id": "20914849689",
+      "source": "strava",
+      "name": "Cramp of doom and despair",
+      "sport": "Run",
+      "is_run": true,
+      "start_date": "2026-11-08T17:22:07",
+      "date": "2026-11-08",
+      "distance_mi": 4.0,
+      "moving_time_s": 2143,
+      "elapsed_time_s": 2204,
+      "pace_min_per_mi": 8.92,
+      "avg_hr": 148.5,
+      "max_hr": 178.0,
+      "elev_gain_ft": 51.2,
+      "avg_speed_mph": 6.73,
+      "suffer_score": 44.0,
+      "workout_type": 0
+    },
     {
       "id": "20914039558",
       "source": "strava",
