@@ -1,6 +1,25 @@
 {
-  "count": 368,
+  "count": 369,
   "activities": [
+    {
+      "id": "20953286230",
+      "source": "strava",
+      "name": "First real run back in 2 weeks - cramp/side felt better than it had",
+      "sport": "Run",
+      "is_run": true,
+      "start_date": "2026-11-11T16:45:35",
+      "date": "2026-11-11",
+      "distance_mi": 7.01,
+      "moving_time_s": 3856,
+      "elapsed_time_s": 3863,
+      "pace_min_per_mi": 9.17,
+      "avg_hr": 154.3,
+      "max_hr": 179.0,
+      "elev_gain_ft": 101.4,
+      "avg_speed_mph": 6.54,
+      "suffer_score": 105.0,
+      "workout_type": 0
+    },
     {
       "id": "20939561801",
       "source": "strava",
