@@ -1,6 +1,25 @@
 {
-  "count": 379,
+  "count": 380,
   "activities": [
+    {
+      "id": "21064473318",
+      "source": "strava",
+      "name": "Treadmill run",
+      "sport": "Run",
+      "is_run": true,
+      "start_date": "2026-11-20T17:47:00",
+      "date": "2026-11-20",
+      "distance_mi": 6.1,
+      "moving_time_s": 3373,
+      "elapsed_time_s": 3373,
+      "pace_min_per_mi": 9.22,
+      "avg_hr": null,
+      "max_hr": null,
+      "elev_gain_ft": 0.0,
+      "avg_speed_mph": 6.51,
+      "suffer_score": null,
+      "workout_type": null
+    },
     {
       "id": "21049807711",
       "source": "strava",
