@@ -17,7 +17,7 @@
       "max_hr": 170.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 6.89,
-      "suffer_score": 51.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -36,7 +36,7 @@
       "max_hr": 105.0,
       "elev_gain_ft": 173.2,
       "avg_speed_mph": 3.15,
-      "suffer_score": 7.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -55,7 +55,7 @@
       "max_hr": 124.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -74,7 +74,7 @@
       "max_hr": 163.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 8.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -93,7 +93,7 @@
       "max_hr": 164.0,
       "elev_gain_ft": 332.0,
       "avg_speed_mph": 6.67,
-      "suffer_score": 36.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -112,7 +112,7 @@
       "max_hr": 152.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 7.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -131,7 +131,7 @@
       "max_hr": 173.0,
       "elev_gain_ft": 225.7,
       "avg_speed_mph": 7.04,
-      "suffer_score": 27.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -169,7 +169,7 @@
       "max_hr": 140.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 3.42,
-      "suffer_score": 6.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -188,7 +188,7 @@
       "max_hr": 145.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 6.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -226,7 +226,7 @@
       "max_hr": 126.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -245,7 +245,7 @@
       "max_hr": 153.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 5.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -264,7 +264,7 @@
       "max_hr": 167.0,
       "elev_gain_ft": 49.2,
       "avg_speed_mph": 6.04,
-      "suffer_score": 36.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -283,7 +283,7 @@
       "max_hr": 144.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 7.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -302,7 +302,7 @@
       "max_hr": 164.0,
       "elev_gain_ft": 61.7,
       "avg_speed_mph": 6.46,
-      "suffer_score": 36.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -321,7 +321,7 @@
       "max_hr": 185.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.74,
-      "suffer_score": 73.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -340,7 +340,7 @@
       "max_hr": 121.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -359,7 +359,7 @@
       "max_hr": 179.0,
       "elev_gain_ft": 101.4,
       "avg_speed_mph": 6.54,
-      "suffer_score": 105.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -378,7 +378,7 @@
       "max_hr": 169.0,
       "elev_gain_ft": 47.9,
       "avg_speed_mph": 6.64,
-      "suffer_score": 47.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -397,7 +397,7 @@
       "max_hr": 129.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -416,7 +416,7 @@
       "max_hr": 150.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 5.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -435,7 +435,7 @@
       "max_hr": 104.0,
       "elev_gain_ft": 37.7,
       "avg_speed_mph": 2.93,
-      "suffer_score": 6.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -454,7 +454,7 @@
       "max_hr": 178.0,
       "elev_gain_ft": 51.2,
       "avg_speed_mph": 6.73,
-      "suffer_score": 44.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -473,7 +473,7 @@
       "max_hr": 100.0,
       "elev_gain_ft": 58.1,
       "avg_speed_mph": 3.06,
-      "suffer_score": 6.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -492,7 +492,7 @@
       "max_hr": 175.0,
       "elev_gain_ft": 34.1,
       "avg_speed_mph": 7.49,
-      "suffer_score": 35.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -511,7 +511,7 @@
       "max_hr": 122.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 3.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -530,7 +530,7 @@
       "max_hr": 145.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 7.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -549,7 +549,7 @@
       "max_hr": 182.0,
       "elev_gain_ft": 219.2,
       "avg_speed_mph": 7.2,
-      "suffer_score": 215.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -568,7 +568,7 @@
       "max_hr": 179.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 7.8,
-      "suffer_score": 77.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -587,7 +587,7 @@
       "max_hr": 179.0,
       "elev_gain_ft": 43.3,
       "avg_speed_mph": 6.8,
-      "suffer_score": 73.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -606,7 +606,7 @@
       "max_hr": 138.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 5.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -625,7 +625,7 @@
       "max_hr": 122.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 3.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -644,7 +644,7 @@
       "max_hr": 178.0,
       "elev_gain_ft": 60.7,
       "avg_speed_mph": 6.86,
-      "suffer_score": 73.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -663,7 +663,7 @@
       "max_hr": 165.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 7.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -682,7 +682,7 @@
       "max_hr": 131.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 3.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -701,7 +701,7 @@
       "max_hr": 175.0,
       "elev_gain_ft": 139.8,
       "avg_speed_mph": 6.74,
-      "suffer_score": 22.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -720,7 +720,7 @@
       "max_hr": 158.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 10.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -739,7 +739,7 @@
       "max_hr": 134.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 3.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -758,7 +758,7 @@
       "max_hr": 169.0,
       "elev_gain_ft": 432.1,
       "avg_speed_mph": 6.61,
-      "suffer_score": 103.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -777,7 +777,7 @@
       "max_hr": 130.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 5.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -796,7 +796,7 @@
       "max_hr": 179.0,
       "elev_gain_ft": 82.3,
       "avg_speed_mph": 7.17,
-      "suffer_score": 66.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -815,7 +815,7 @@
       "max_hr": 144.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -834,7 +834,7 @@
       "max_hr": 191.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 8.11,
-      "suffer_score": 59.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -853,7 +853,7 @@
       "max_hr": 158.0,
       "elev_gain_ft": 63.6,
       "avg_speed_mph": 5.96,
-      "suffer_score": 10.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -872,7 +872,7 @@
       "max_hr": 139.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -891,7 +891,7 @@
       "max_hr": 187.0,
       "elev_gain_ft": 70.9,
       "avg_speed_mph": 6.99,
-      "suffer_score": 27.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -910,7 +910,7 @@
       "max_hr": 149.0,
       "elev_gain_ft": 57.7,
       "avg_speed_mph": 6.09,
-      "suffer_score": 18.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -929,7 +929,7 @@
       "max_hr": 145.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 2.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -948,7 +948,7 @@
       "max_hr": 126.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 5.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -967,7 +967,7 @@
       "max_hr": 183.0,
       "elev_gain_ft": 176.5,
       "avg_speed_mph": 6.87,
-      "suffer_score": 213.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -986,7 +986,7 @@
       "max_hr": 134.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 2.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1005,7 +1005,7 @@
       "max_hr": 195.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 7.32,
-      "suffer_score": 78.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -1024,7 +1024,7 @@
       "max_hr": 151.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 3.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1043,7 +1043,7 @@
       "max_hr": 175.0,
       "elev_gain_ft": 41.0,
       "avg_speed_mph": 7.4,
-      "suffer_score": 38.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -1062,7 +1062,7 @@
       "max_hr": 152.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1081,7 +1081,7 @@
       "max_hr": 169.0,
       "elev_gain_ft": 87.9,
       "avg_speed_mph": 6.36,
-      "suffer_score": 56.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -1100,7 +1100,7 @@
       "max_hr": 134.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1119,7 +1119,7 @@
       "max_hr": 128.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 3.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1138,7 +1138,7 @@
       "max_hr": 179.0,
       "elev_gain_ft": 375.0,
       "avg_speed_mph": 6.47,
-      "suffer_score": 214.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -1157,7 +1157,7 @@
       "max_hr": 190.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 7.84,
-      "suffer_score": 111.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -1176,7 +1176,7 @@
       "max_hr": 173.0,
       "elev_gain_ft": 100.1,
       "avg_speed_mph": 6.12,
-      "suffer_score": 59.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -1195,7 +1195,7 @@
       "max_hr": 125.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 3.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1214,7 +1214,7 @@
       "max_hr": 181.0,
       "elev_gain_ft": 49.2,
       "avg_speed_mph": 6.7,
-      "suffer_score": 76.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -1233,7 +1233,7 @@
       "max_hr": 120.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 3.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1252,7 +1252,7 @@
       "max_hr": 177.0,
       "elev_gain_ft": 65.6,
       "avg_speed_mph": 6.52,
-      "suffer_score": 45.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -1271,7 +1271,7 @@
       "max_hr": 129.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 3.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1290,7 +1290,7 @@
       "max_hr": 172.0,
       "elev_gain_ft": 64.3,
       "avg_speed_mph": 6.54,
-      "suffer_score": 73.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -1309,7 +1309,7 @@
       "max_hr": 122.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1328,7 +1328,7 @@
       "max_hr": 189.0,
       "elev_gain_ft": 63.6,
       "avg_speed_mph": 7.85,
-      "suffer_score": 93.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -1347,7 +1347,7 @@
       "max_hr": 125.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1366,7 +1366,7 @@
       "max_hr": 176.0,
       "elev_gain_ft": 260.2,
       "avg_speed_mph": 6.07,
-      "suffer_score": 165.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -1385,7 +1385,7 @@
       "max_hr": 189.0,
       "elev_gain_ft": 8.2,
       "avg_speed_mph": 7.27,
-      "suffer_score": 34.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -1404,7 +1404,7 @@
       "max_hr": 123.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 2.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1423,7 +1423,7 @@
       "max_hr": 139.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 3.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1442,7 +1442,7 @@
       "max_hr": 157.0,
       "elev_gain_ft": 110.9,
       "avg_speed_mph": 5.86,
-      "suffer_score": 22.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -1461,7 +1461,7 @@
       "max_hr": 180.0,
       "elev_gain_ft": 47.9,
       "avg_speed_mph": 6.73,
-      "suffer_score": 64.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -1480,7 +1480,7 @@
       "max_hr": 136.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 6.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1499,7 +1499,7 @@
       "max_hr": 139.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1518,7 +1518,7 @@
       "max_hr": 173.0,
       "elev_gain_ft": 281.8,
       "avg_speed_mph": 6.42,
-      "suffer_score": 157.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -1537,7 +1537,7 @@
       "max_hr": 143.0,
       "elev_gain_ft": 34.4,
       "avg_speed_mph": 5.66,
-      "suffer_score": 6.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -1556,7 +1556,7 @@
       "max_hr": 132.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1575,7 +1575,7 @@
       "max_hr": 117.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 3.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1594,7 +1594,7 @@
       "max_hr": 183.0,
       "elev_gain_ft": 81.7,
       "avg_speed_mph": 6.64,
-      "suffer_score": 113.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -1613,7 +1613,7 @@
       "max_hr": 135.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1632,7 +1632,7 @@
       "max_hr": 191.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 8.59,
-      "suffer_score": 83.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -1651,7 +1651,7 @@
       "max_hr": 142.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1670,7 +1670,7 @@
       "max_hr": 160.0,
       "elev_gain_ft": 64.0,
       "avg_speed_mph": 6.3,
-      "suffer_score": 31.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -1689,7 +1689,7 @@
       "max_hr": 174.0,
       "elev_gain_ft": 60.0,
       "avg_speed_mph": 5.7,
-      "suffer_score": 64.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -1708,7 +1708,7 @@
       "max_hr": 149.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 7.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1727,7 +1727,7 @@
       "max_hr": 183.0,
       "elev_gain_ft": 136.8,
       "avg_speed_mph": 6.64,
-      "suffer_score": 127.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -1746,7 +1746,7 @@
       "max_hr": 178.0,
       "elev_gain_ft": 265.4,
       "avg_speed_mph": 6.61,
-      "suffer_score": 195.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -1765,7 +1765,7 @@
       "max_hr": 133.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1784,7 +1784,7 @@
       "max_hr": 176.0,
       "elev_gain_ft": 58.1,
       "avg_speed_mph": 6.21,
-      "suffer_score": 68.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -1803,7 +1803,7 @@
       "max_hr": 151.0,
       "elev_gain_ft": 24.0,
       "avg_speed_mph": 5.82,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -1822,7 +1822,7 @@
       "max_hr": 140.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 5.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1841,7 +1841,7 @@
       "max_hr": 174.0,
       "elev_gain_ft": 65.6,
       "avg_speed_mph": 6.33,
-      "suffer_score": 64.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -1860,7 +1860,7 @@
       "max_hr": 136.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 3.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1879,7 +1879,7 @@
       "max_hr": 175.0,
       "elev_gain_ft": 48.6,
       "avg_speed_mph": 7.03,
-      "suffer_score": 52.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -1898,7 +1898,7 @@
       "max_hr": 126.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1917,7 +1917,7 @@
       "max_hr": 178.0,
       "elev_gain_ft": 16.1,
       "avg_speed_mph": 8.44,
-      "suffer_score": 14.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -1936,7 +1936,7 @@
       "max_hr": 134.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 7.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -1955,7 +1955,7 @@
       "max_hr": 171.0,
       "elev_gain_ft": 51.8,
       "avg_speed_mph": 6.38,
-      "suffer_score": 32.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -1974,7 +1974,7 @@
       "max_hr": 139.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 5.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -1993,7 +1993,7 @@
       "max_hr": 181.0,
       "elev_gain_ft": 179.5,
       "avg_speed_mph": 6.18,
-      "suffer_score": 197.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -2012,7 +2012,7 @@
       "max_hr": 110.0,
       "elev_gain_ft": 22.6,
       "avg_speed_mph": 2.94,
-      "suffer_score": 2.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -2031,7 +2031,7 @@
       "max_hr": 135.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -2050,7 +2050,7 @@
       "max_hr": 177.0,
       "elev_gain_ft": 57.4,
       "avg_speed_mph": 6.4,
-      "suffer_score": 80.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -2069,7 +2069,7 @@
       "max_hr": 177.0,
       "elev_gain_ft": 72.8,
       "avg_speed_mph": 5.94,
-      "suffer_score": 71.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -2088,7 +2088,7 @@
       "max_hr": 129.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -2107,7 +2107,7 @@
       "max_hr": 107.0,
       "elev_gain_ft": 25.9,
       "avg_speed_mph": 3.19,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -2126,7 +2126,7 @@
       "max_hr": 96.0,
       "elev_gain_ft": 25.6,
       "avg_speed_mph": 3.08,
-      "suffer_score": 2.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -2145,7 +2145,7 @@
       "max_hr": 126.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 6.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -2164,7 +2164,7 @@
       "max_hr": 179.0,
       "elev_gain_ft": 145.7,
       "avg_speed_mph": 6.32,
-      "suffer_score": 121.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -2183,7 +2183,7 @@
       "max_hr": 160.0,
       "elev_gain_ft": 38.7,
       "avg_speed_mph": 6.45,
-      "suffer_score": 27.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -2202,7 +2202,7 @@
       "max_hr": 179.0,
       "elev_gain_ft": 70.9,
       "avg_speed_mph": 6.58,
-      "suffer_score": 78.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -2221,7 +2221,7 @@
       "max_hr": 135.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 3.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -2240,7 +2240,7 @@
       "max_hr": 179.0,
       "elev_gain_ft": 165.7,
       "avg_speed_mph": 6.58,
-      "suffer_score": 72.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -2259,7 +2259,7 @@
       "max_hr": 119.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 2.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -2278,7 +2278,7 @@
       "max_hr": 161.0,
       "elev_gain_ft": 79.4,
       "avg_speed_mph": 6.41,
-      "suffer_score": 44.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -2297,7 +2297,7 @@
       "max_hr": 175.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.39,
-      "suffer_score": 40.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -2316,7 +2316,7 @@
       "max_hr": 145.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 3.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -2335,7 +2335,7 @@
       "max_hr": 169.0,
       "elev_gain_ft": 119.4,
       "avg_speed_mph": 6.38,
-      "suffer_score": 66.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -2354,7 +2354,7 @@
       "max_hr": 183.0,
       "elev_gain_ft": 24.9,
       "avg_speed_mph": 8.9,
-      "suffer_score": 20.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -2373,7 +2373,7 @@
       "max_hr": 187.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 7.46,
-      "suffer_score": 41.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -2392,7 +2392,7 @@
       "max_hr": 132.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 5.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -2411,7 +2411,7 @@
       "max_hr": 130.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -2430,7 +2430,7 @@
       "max_hr": 169.0,
       "elev_gain_ft": 66.3,
       "avg_speed_mph": 6.35,
-      "suffer_score": 32.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -2449,7 +2449,7 @@
       "max_hr": 179.0,
       "elev_gain_ft": 103.3,
       "avg_speed_mph": 6.72,
-      "suffer_score": 75.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -2468,7 +2468,7 @@
       "max_hr": 134.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 6.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -2487,7 +2487,7 @@
       "max_hr": 119.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 3.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -2506,7 +2506,7 @@
       "max_hr": 114.0,
       "elev_gain_ft": 195.2,
       "avg_speed_mph": 3.48,
-      "suffer_score": 7.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -2525,7 +2525,7 @@
       "max_hr": 108.0,
       "elev_gain_ft": 124.0,
       "avg_speed_mph": 3.0,
-      "suffer_score": 5.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -2544,7 +2544,7 @@
       "max_hr": 167.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 37.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -2563,7 +2563,7 @@
       "max_hr": 125.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 6.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -2582,7 +2582,7 @@
       "max_hr": 138.0,
       "elev_gain_ft": 84.0,
       "avg_speed_mph": 3.34,
-      "suffer_score": 3.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -2601,7 +2601,7 @@
       "max_hr": 176.0,
       "elev_gain_ft": 308.4,
       "avg_speed_mph": 6.79,
-      "suffer_score": 80.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -2620,7 +2620,7 @@
       "max_hr": 99.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 0.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -2639,7 +2639,7 @@
       "max_hr": 145.0,
       "elev_gain_ft": 69.6,
       "avg_speed_mph": 6.04,
-      "suffer_score": 3.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -2658,7 +2658,7 @@
       "max_hr": 167.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 33.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -2677,7 +2677,7 @@
       "max_hr": 132.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 3.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -2696,7 +2696,7 @@
       "max_hr": 182.0,
       "elev_gain_ft": 327.1,
       "avg_speed_mph": 6.74,
-      "suffer_score": 116.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -2715,7 +2715,7 @@
       "max_hr": 125.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 6.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -2734,7 +2734,7 @@
       "max_hr": 176.0,
       "elev_gain_ft": 245.1,
       "avg_speed_mph": 7.31,
-      "suffer_score": 73.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -2753,7 +2753,7 @@
       "max_hr": 178.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 43.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -2772,7 +2772,7 @@
       "max_hr": 139.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -2791,7 +2791,7 @@
       "max_hr": 180.0,
       "elev_gain_ft": 428.1,
       "avg_speed_mph": 6.35,
-      "suffer_score": 158.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -2810,7 +2810,7 @@
       "max_hr": 137.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -2829,7 +2829,7 @@
       "max_hr": 180.0,
       "elev_gain_ft": 358.9,
       "avg_speed_mph": 6.76,
-      "suffer_score": 75.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -2848,7 +2848,7 @@
       "max_hr": 139.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 5.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -2867,7 +2867,7 @@
       "max_hr": 166.0,
       "elev_gain_ft": 358.9,
       "avg_speed_mph": 6.07,
-      "suffer_score": 56.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -2886,7 +2886,7 @@
       "max_hr": 156.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 8.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -2905,7 +2905,7 @@
       "max_hr": 118.0,
       "elev_gain_ft": 148.0,
       "avg_speed_mph": 3.02,
-      "suffer_score": 8.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -2924,7 +2924,7 @@
       "max_hr": 142.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 6.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -2943,7 +2943,7 @@
       "max_hr": 184.0,
       "elev_gain_ft": 208.3,
       "avg_speed_mph": 7.18,
-      "suffer_score": 90.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -2962,7 +2962,7 @@
       "max_hr": 174.0,
       "elev_gain_ft": 459.6,
       "avg_speed_mph": 6.32,
-      "suffer_score": 107.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -2981,7 +2981,7 @@
       "max_hr": 151.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -3000,7 +3000,7 @@
       "max_hr": 171.0,
       "elev_gain_ft": 252.3,
       "avg_speed_mph": 6.2,
-      "suffer_score": 41.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -3019,7 +3019,7 @@
       "max_hr": 152.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 11.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3038,7 +3038,7 @@
       "max_hr": 130.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 6.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -3057,7 +3057,7 @@
       "max_hr": 110.0,
       "elev_gain_ft": 86.3,
       "avg_speed_mph": 3.28,
-      "suffer_score": 2.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3076,7 +3076,7 @@
       "max_hr": 185.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 7.67,
-      "suffer_score": 293.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3095,7 +3095,7 @@
       "max_hr": 150.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 5.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3114,7 +3114,7 @@
       "max_hr": 146.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 6.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -3133,7 +3133,7 @@
       "max_hr": 179.0,
       "elev_gain_ft": 282.8,
       "avg_speed_mph": 7.75,
-      "suffer_score": 56.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -3152,7 +3152,7 @@
       "max_hr": 169.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 13.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3171,7 +3171,7 @@
       "max_hr": 128.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -3190,7 +3190,7 @@
       "max_hr": 144.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 7.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3209,7 +3209,7 @@
       "max_hr": 128.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 5.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -3228,7 +3228,7 @@
       "max_hr": 168.0,
       "elev_gain_ft": 130.2,
       "avg_speed_mph": 6.57,
-      "suffer_score": 58.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3247,7 +3247,7 @@
       "max_hr": 103.0,
       "elev_gain_ft": 109.3,
       "avg_speed_mph": 3.01,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3266,7 +3266,7 @@
       "max_hr": 183.0,
       "elev_gain_ft": 349.4,
       "avg_speed_mph": 6.81,
-      "suffer_score": 86.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3285,7 +3285,7 @@
       "max_hr": 117.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 3.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -3304,7 +3304,7 @@
       "max_hr": 172.0,
       "elev_gain_ft": 174.2,
       "avg_speed_mph": 6.82,
-      "suffer_score": 25.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3323,7 +3323,7 @@
       "max_hr": 139.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 6.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -3342,7 +3342,7 @@
       "max_hr": 190.0,
       "elev_gain_ft": 305.8,
       "avg_speed_mph": 6.81,
-      "suffer_score": 177.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -3361,7 +3361,7 @@
       "max_hr": 146.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 10.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3380,7 +3380,7 @@
       "max_hr": 129.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 7.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -3399,7 +3399,7 @@
       "max_hr": 142.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 6.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3418,7 +3418,7 @@
       "max_hr": 186.0,
       "elev_gain_ft": 461.0,
       "avg_speed_mph": 7.81,
-      "suffer_score": 94.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3437,7 +3437,7 @@
       "max_hr": 141.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 7.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3456,7 +3456,7 @@
       "max_hr": 179.0,
       "elev_gain_ft": 345.8,
       "avg_speed_mph": 6.78,
-      "suffer_score": 109.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -3475,7 +3475,7 @@
       "max_hr": 138.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 6.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -3494,7 +3494,7 @@
       "max_hr": 168.0,
       "elev_gain_ft": 7.5,
       "avg_speed_mph": 6.82,
-      "suffer_score": 21.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -3513,7 +3513,7 @@
       "max_hr": 147.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 6.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -3532,7 +3532,7 @@
       "max_hr": 170.0,
       "elev_gain_ft": 14.4,
       "avg_speed_mph": 7.13,
-      "suffer_score": 21.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -3551,7 +3551,7 @@
       "max_hr": 171.0,
       "elev_gain_ft": 110.6,
       "avg_speed_mph": 6.71,
-      "suffer_score": 97.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -3570,7 +3570,7 @@
       "max_hr": 149.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 17.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3589,7 +3589,7 @@
       "max_hr": 124.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 3.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -3608,7 +3608,7 @@
       "max_hr": 147.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 8.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3627,7 +3627,7 @@
       "max_hr": 132.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -3665,7 +3665,7 @@
       "max_hr": 183.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 58.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3684,7 +3684,7 @@
       "max_hr": 169.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 13.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -3703,7 +3703,7 @@
       "max_hr": 134.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 5.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -3722,7 +3722,7 @@
       "max_hr": 162.0,
       "elev_gain_ft": 165.4,
       "avg_speed_mph": 6.53,
-      "suffer_score": 29.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -3741,7 +3741,7 @@
       "max_hr": 183.0,
       "elev_gain_ft": 45.9,
       "avg_speed_mph": 6.7,
-      "suffer_score": 68.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -3760,7 +3760,7 @@
       "max_hr": 185.0,
       "elev_gain_ft": 39.4,
       "avg_speed_mph": 6.68,
-      "suffer_score": 141.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -3779,7 +3779,7 @@
       "max_hr": 150.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 5.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3798,7 +3798,7 @@
       "max_hr": 141.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 6.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -3817,7 +3817,7 @@
       "max_hr": 148.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 10.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3836,7 +3836,7 @@
       "max_hr": 150.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 6.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -3874,7 +3874,7 @@
       "max_hr": 185.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 73.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3893,7 +3893,7 @@
       "max_hr": 183.0,
       "elev_gain_ft": 283.8,
       "avg_speed_mph": 6.87,
-      "suffer_score": 94.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -3912,7 +3912,7 @@
       "max_hr": 181.0,
       "elev_gain_ft": 276.2,
       "avg_speed_mph": 7.8,
-      "suffer_score": 60.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -3931,7 +3931,7 @@
       "max_hr": 144.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 5.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -3950,7 +3950,7 @@
       "max_hr": 141.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 1.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3969,7 +3969,7 @@
       "max_hr": 148.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 14.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -3988,7 +3988,7 @@
       "max_hr": 155.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 10.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -4007,7 +4007,7 @@
       "max_hr": 180.0,
       "elev_gain_ft": 369.8,
       "avg_speed_mph": 6.53,
-      "suffer_score": 114.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -4026,7 +4026,7 @@
       "max_hr": 154.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 16.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -4045,7 +4045,7 @@
       "max_hr": 144.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 5.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -4064,7 +4064,7 @@
       "max_hr": 139.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 1.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -4083,7 +4083,7 @@
       "max_hr": 162.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 8.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -4121,7 +4121,7 @@
       "max_hr": 187.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 42.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -4140,7 +4140,7 @@
       "max_hr": 119.0,
       "elev_gain_ft": 133.5,
       "avg_speed_mph": 3.25,
-      "suffer_score": 6.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -4159,7 +4159,7 @@
       "max_hr": 187.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 82.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -4178,7 +4178,7 @@
       "max_hr": 177.0,
       "elev_gain_ft": 180.1,
       "avg_speed_mph": 7.3,
-      "suffer_score": 62.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -4197,7 +4197,7 @@
       "max_hr": 139.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 1.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -4216,7 +4216,7 @@
       "max_hr": 131.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -4235,7 +4235,7 @@
       "max_hr": 166.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 14.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -4254,7 +4254,7 @@
       "max_hr": 140.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 6.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -4273,7 +4273,7 @@
       "max_hr": 178.0,
       "elev_gain_ft": 65.6,
       "avg_speed_mph": 6.4,
-      "suffer_score": 126.0,
+      "suffer_score": null,
       "workout_type": 0
     },
     {
@@ -4292,7 +4292,7 @@
       "max_hr": 128.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 1.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -4311,7 +4311,7 @@
       "max_hr": 147.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 10.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -4330,7 +4330,7 @@
       "max_hr": 131.0,
       "elev_gain_ft": 0.0,
       "avg_speed_mph": 0.0,
-      "suffer_score": 4.0,
+      "suffer_score": null,
       "workout_type": 30
     },
     {
@@ -5299,7 +5299,7 @@
       "max_hr": null,
       "elev_gain_ft": 120.7,
       "avg_speed_mph": 8.24,
-      "suffer_score": 27.0,
+      "suffer_score": null,
       "workout_type": null
     },
     {
@@ -7351,7 +7351,7 @@
       "max_hr": null,
       "elev_gain_ft": 244.8,
       "avg_speed_mph": 7.86,
-      "suffer_score": 26.0,
+      "suffer_score": null,
       "workout_type": 3
     }
   ]
