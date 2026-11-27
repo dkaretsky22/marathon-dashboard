@@ -1,6 +1,25 @@
 {
-  "count": 386,
+  "count": 387,
   "activities": [
+    {
+      "id": "21136495019",
+      "source": "strava",
+      "name": "Post BOW is not the play",
+      "sport": "Run",
+      "is_run": true,
+      "start_date": "2026-11-26T14:50:29",
+      "date": "2026-11-26",
+      "distance_mi": 4.02,
+      "moving_time_s": 2102,
+      "elapsed_time_s": 2131,
+      "pace_min_per_mi": 8.71,
+      "avg_hr": 151.1,
+      "max_hr": 170.0,
+      "elev_gain_ft": 0.0,
+      "avg_speed_mph": 6.89,
+      "suffer_score": 51.0,
+      "workout_type": 0
+    },
     {
       "id": "21125048707",
       "source": "strava",
